@@ -33,7 +33,7 @@ export class HeaderMainComponent {
   if (formValues) {
 
     // Logica de redireccion a menu principal
-    this.router.navigateByUrl("Falta crear menu")
+    this.router.navigateByUrl("pages/dashboard/dashboard.component.html");
     // Swal.fire(JSON.stringify(formValues));
     // console.log(formValues)
   }
