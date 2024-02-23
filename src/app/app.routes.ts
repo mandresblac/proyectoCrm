@@ -22,6 +22,8 @@ export const routes: Routes = [
   {
     path: "dashboard", // Ruta o path
     title: "dashboard",
-    component: DashboardComponent,
+    component: DashboardComponent, /* children: [
+      {path: clientes, component: TablaClientes}
+    ] */
   },
 ];

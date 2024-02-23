@@ -1,5 +1,5 @@
 <header
-  class="fixed top-0 left-0 right-0 bg-slate-50 flex items-center justify-between pt-4 pb-2 border-gray-300 shadow-lg sm:mx-14 sm:border-r-2 sm:border-b-2 sm:border-l-2 sm:rounded-b-lg sm:rounded-bl-lg"
+  class="fixed top-0 left-0 right-0 bg-slate-50 z-10 flex items-center justify-between pt-4 pb-4 border-gray-300 shadow-lg sm:mx-14 sm:border-r-2 sm:border-b-2 sm:border-l-2 sm:rounded-b-lg sm:rounded-bl-lg"
 >
   <div class="flex items-center justify-center gap-3">
     <img class="w-9 h-9 ml-5" src="../../../assets/img/logo.svg" alt="Logo" />
@@ -10,7 +10,20 @@
     >
   </div>
 
-  <!-- <nav class="flex items-center justify-center gap-4"></nav> -->
+  <nav class="flex items-center justify-center gap-4 mr-6">
+    <ul class="flex gap-3">
+      <li>
+        <a routerLink="clientes" class="text-sm cursor-pointer hover:underline"
+          >Clientes</a
+        >
+      </li>
+      <li>
+        <a routerLink="" class="text-sm">tab 2</a>
+      </li>
+      <li>
+        <a routerLink="" class="text-sm">tab 3</a>
+      </li>
+    </ul>
+  </nav>
 </header>
-
-<!-- <h1 class="w-full h-full">Dasboard</h1> -->
+<app-ver-clientes class="flex justify-center mt-28" />
