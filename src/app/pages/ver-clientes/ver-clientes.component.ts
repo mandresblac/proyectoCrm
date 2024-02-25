@@ -26,7 +26,7 @@ export class VerClientesComponent implements OnInit {
         estado: true
       },
       {
-        id: 1,
+        id: 2,
         nombre: "Maria Torre",
         direccion: "Calle 26 # 80-04",
         telefono: "31802529874",
