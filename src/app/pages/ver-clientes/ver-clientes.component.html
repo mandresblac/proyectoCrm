@@ -25,16 +25,18 @@
     </thead>
 
     <tbody>
+      @for (cliente of misClientes; track $index) {
       <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
         <td scope="border row" class="px-6 py-4">01</td>
-        <td class="border px-6 py-4">Juan Perez</td>
-        <td class="border px-6 py-4">Calle 72 #20-16</td>
-        <td class="border px-6 py-4">315 2258691</td>
-        <td class="border px-6 py-4">micorreoagmail.com</td>
-        <td class="border px-6 py-4">Cedula ciudadanis</td>
-        <td class="border px-6 py-4">805720369</td>
-        <td class="border px-6 py-4">jp1234</td>
-        <td class="border px-6 py-4">True</td>
+        <td class="border px-6 py-4">{{ cliente.id }}</td>
+        <td class="border px-6 py-4">{{ cliente.nombre }}</td>
+        <td class="border px-6 py-4">{{ cliente.direccion }}</td>
+        <td class="border px-6 py-4">{{ cliente.telefono }}</td>
+        <td class="border px-6 py-4">{{ cliente.email }}</td>
+        <td class="border px-6 py-4">{{ cliente.tipoDocumento }}</td>
+        <td class="border px-6 py-4">{{ cliente.numeroDocumento }}</td>
+        <td class="border px-6 py-4">{{ cliente.password }}</td>
+        <td class="border px-6 py-4">{{ cliente.estado }}</td>
         <td class="flex justify-center items-center mt-4 ml-1">
           <button
             type="button"
@@ -97,6 +99,7 @@
           </button>
         </td>
       </tr>
+      }
     </tbody>
   </table>
 </div>

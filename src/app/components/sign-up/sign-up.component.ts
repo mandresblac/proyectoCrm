@@ -4,10 +4,11 @@ import { VerClientesComponent } from '../../pages/ver-clientes/ver-clientes.comp
 @Component({
   selector: 'app-sign-up',
   standalone: true,
-  imports: [VerClientesComponent],
+  imports: [],
   templateUrl: './sign-up.component.html',
   styleUrl: './sign-up.component.css'
 })
 export class SignUpComponent {
+// usuarios: { id: number; nombre: string; direccion: string; 
 
 }
