@@ -29,7 +29,9 @@
     <tbody>
       @for (cliente of misClientes; track $index) {
       <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-        <td scope="border row" class="px-5 py-3">{{ cliente.id }}</td>
+        <td scope="border row" class="px-5 py-3">
+          {{ cliente.id }}
+        </td>
         <td class="border px-4 py-3">{{ cliente.nombre }}</td>
         <td class="border px-4 py-3">{{ cliente.direccion }}</td>
         <td class="border px-4 py-3">{{ cliente.telefono }}</td>
@@ -37,7 +39,7 @@
         <td class="border px-4 py-3">{{ cliente.tipoDocumento }}</td>
         <td class="border px-4 py-3">{{ cliente.numeroDocumento }}</td>
         <td class="border px-4 py-3">{{ cliente.password }}</td>
-        <td class="border px-4 py-3">{{ cliente.estado }}</td>
+        <td class="border px-4 py-3 text-center">{{ cliente.estado }}</td>
         <td class="flex justify-center items-center mt-4 ml-1">
           <button
             type="button"

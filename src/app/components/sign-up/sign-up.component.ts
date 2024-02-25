@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { VerClientesComponent } from '../../pages/ver-clientes/ver-clientes.component';
 
 @Component({
   selector: 'app-sign-up',
@@ -9,6 +8,5 @@ import { VerClientesComponent } from '../../pages/ver-clientes/ver-clientes.comp
   styleUrl: './sign-up.component.css'
 })
 export class SignUpComponent {
-// usuarios: { id: number; nombre: string; direccion: string; 
-
+  
 }

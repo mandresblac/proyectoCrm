@@ -5,18 +5,23 @@ import { VerClientesComponent } from "../ver-clientes/ver-clientes.component";
 export const routes: Routes = [
   {
     path: "dashboard", // Ruta o path
-    title: "dashboard",
+    title: "dashboard"/* ,
     component: DashboardComponent, children: [
       {
         path: "clientes", 
         title: "clientes",
         component: VerClientesComponent
       }
-    ] 
+    ]  */
   },
-  /* {
+  {
     path: "clientes", 
     title: "clientes",
     component: VerClientesComponent
-  } */
+  },
+  {
+    path: "tab2", 
+    title: "tab 2",
+    component: VerClientesComponent
+  }
 ];
