@@ -1,4 +1,6 @@
 <form
+  [formGroup]="contactoForm"
+  (submit)="enviarDatos()"
   action=""
   class="w-full flex flex-col justify-center items-center gap-7 sm:mt-10"
 >
@@ -8,30 +10,35 @@
     class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
     type="text"
     placeholder="Nombre y apellido"
+    formControlName="nombre"
   />
 
   <input
     class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
     type="text"
     placeholder="Direccion"
+    formControlName="direccion"
   />
 
   <input
     class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
     type="text"
     placeholder="Telefono"
+    formControlName="telefono"
   />
 
   <input
     class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
     type="email"
     placeholder="Email"
+    formControlName="email"
   />
 
   <select
     class="text-gray-400 text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
     name="document-type"
     id="dt"
+    formControlName="tipoDocumento"
   >
     <option value="" selected disabled>Tipo de documento</option>
     <option class="text-gray-700" value="ti">Tarjeta de identidad</option>
@@ -45,6 +52,7 @@
     class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
     type="text"
     placeholder="Numero de documento"
+    formControlName="numeroDocumento"
   />
 
   <div>
@@ -52,6 +60,7 @@
       class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
       type="password"
       placeholder="Contraseña"
+      formControlName="password"
     />
     <span class="inline-block text-sm leading-none mt-1 text-neutral-600"
       >Debe tener minimo 8 caracteres y un carácter especial o número.</span
@@ -59,8 +68,9 @@
   </div>
 
   <button
-    type="button"
-    class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 w-full"
+    type="submit"
+    class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 w-full cursor-pointer"
+    [disabled]="!contactoForm.valid"
   >
     Registrarse
   </button>

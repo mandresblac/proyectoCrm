@@ -1,18 +1,13 @@
 import { Routes } from "@angular/router";
 import { DashboardComponent } from "./dashboard.component";
 import { VerClientesComponent } from "../ver-clientes/ver-clientes.component";
+import { ServiciosComponent } from "../servicios/servicios.component";
 
 export const routes: Routes = [
   {
-    path: "dashboard", // Ruta o path
-    title: "dashboard"/* ,
-    component: DashboardComponent, children: [
-      {
-        path: "clientes", 
-        title: "clientes",
-        component: VerClientesComponent
-      }
-    ]  */
+    path: "", // Ruta o path
+    title: "dashboard" ,
+    component: DashboardComponent
   },
   {
     path: "clientes", 
@@ -20,8 +15,8 @@ export const routes: Routes = [
     component: VerClientesComponent
   },
   {
-    path: "tab2", 
-    title: "tab 2",
-    component: VerClientesComponent
+    path: "servicios", 
+    title: "servicios",
+    component: ServiciosComponent
   }
 ];

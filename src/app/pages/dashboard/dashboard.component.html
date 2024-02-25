@@ -1,31 +1,37 @@
-<header
-  class="fixed top-0 left-0 right-0 bg-slate-50 z-10 flex items-center justify-between pt-4 pb-4 border-gray-300 shadow-lg sm:mx-14 sm:border-r-2 sm:border-b-2 sm:border-l-2 sm:rounded-b-lg sm:rounded-bl-lg"
->
-  <div class="flex items-center justify-center gap-3">
-    <img class="w-9 h-9 ml-5" src="../../../assets/img/logo.svg" alt="Logo" />
+<div class="h-screen flex flex-col justify-between">
+  <header
+    class="fixed top-0 left-0 right-0 bg-slate-50 z-10 flex items-center justify-between pt-4 pb-4 border-gray-300 shadow-lg sm:mx-14 sm:border-r-2 sm:border-b-2 sm:border-l-2 sm:rounded-b-lg sm:rounded-bl-lg"
+  >
+    <div class="flex items-center justify-center gap-3">
+      <img class="w-9 h-9 ml-5" src="../../../assets/img/logo.svg" alt="Logo" />
 
-    <span
-      class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-      >Crm</span
-    >
-  </div>
+      <span
+        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+        >Crm</span
+      >
+    </div>
 
-  <nav class="flex items-center justify-center gap-4 mr-6">
-    <ul class="flex gap-3">
-      <li>
-        <a routerLink="clientes" class="text-sm cursor-pointer hover:underline"
-          >Clientes</a
-        >
-      </li>
-      <li>
-        <a routerLink="tab2" class="text-sm cursor-pointer hover:underline"
-          >tab 2</a
-        >
-      </li>
-      <li>
-        <a routerLink="" class="text-sm">tab 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-<app-ver-clientes class="flex justify-center mt-28" />
+    <nav class="flex items-center justify-center gap-4 mr-6">
+      <ul class="flex gap-3">
+        <li>
+          <a
+            routerLink="clientes"
+            class="text-sm cursor-pointer hover:underline"
+            >Clientes</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="servicios"
+            class="text-sm cursor-pointer hover:underline"
+            >Servicios</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <app-ver-clientes class="flex justify-center mt-28" />
+
+  <!-- <router-outlet /> -->
+  <app-footer />
+</div>

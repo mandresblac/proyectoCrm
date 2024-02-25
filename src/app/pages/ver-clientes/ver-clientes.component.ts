@@ -1,10 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { SignUpComponent } from './../../components/sign-up/sign-up.component';
+import { Component, OnInit } from '@angular/core';
 import { Cliente } from '../../core/interfaces/cliente';
 
 @Component({
   selector: 'app-ver-clientes',
   standalone: true,
-  imports: [],
+  imports: [SignUpComponent],
   templateUrl: './ver-clientes.component.html',
   styleUrl: './ver-clientes.component.css'
 })

@@ -2,6 +2,8 @@ import { Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { InicioComponent } from './pages/inicio/inicio.component';  
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { VerClientesComponent } from './pages/ver-clientes/ver-clientes.component';
+import { ServiciosComponent } from './pages/servicios/servicios.component';
 
 export const routes: Routes = [
   {
@@ -22,8 +24,17 @@ export const routes: Routes = [
   {
     path: "dashboard", // Ruta o path
     title: "dashboard",
-    component: DashboardComponent, /* children: [
-      {path: clientes, component: TablaClientes}
-    ] */
+    component: DashboardComponent, children: [
+      {
+        path: "clientes", 
+        title: "clientes",
+        component: VerClientesComponent
+      }, 
+      {
+        path: "servicios", 
+      title: "servicios",
+      component: ServiciosComponent
+      }
+    ] 
   },
 ];
