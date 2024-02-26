@@ -11,5 +11,8 @@ import { FooterComponent } from '../../shared/footer/footer.component';
   styleUrl: './dashboard.component.css'
 })
 export class DashboardComponent {
-  
+  mostrarMenu() {
+    // const nav = document.querySelector('#nav');
+    // nav.classList.add("mostrarMenu");
+  }
 }

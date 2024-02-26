@@ -11,24 +11,108 @@
       >
     </div>
 
-    <nav class="flex items-center justify-center gap-4 mr-6">
-      <ul class="flex gap-3">
-        <li>
+    <button
+      id="dropdownDefaultButton"
+      data-dropdown-toggle="dropdown"
+      class="bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-blue-800 mr-6 sm:hidden"
+      type="button"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="#fff"
+        class="w-6 h-6 sm:hidden"
+        (click)="mostrarMenu()"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+    </button>
+
+    <!-- Dropdown menu -->
+    <div
+      id="dropdown"
+      class="z-10 hidden bg-slate-50 divide-y divide-gray-100 rounded-lg w-auto sm:shadow dark:bg-gray-700 sm:block sm:!mr-6 sm:!static sm:!translate-x-0 sm:!translate-y-0"
+    >
+      <ul
+        class="py-0 text-sm text-gray-700 sm:shadow dark:text-gray-200 sm:flex"
+        aria-labelledby="dropdownDefaultButton"
+      >
+        <li class="sm:w-full sm:flex sm:items-center">
           <a
-            routerLink="clientes"
-            class="text-sm cursor-pointer hover:underline"
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >Clientes</a
           >
         </li>
-        <li>
+        <li class="w-full sm:flex sm:items-center">
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >Servicios</a
+          >
+        </li>
+        <li class="w-full sm:flex sm:items-center">
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-100 sm:whitespace-nowrap dark:hover:bg-gray-600 dark:hover:text-white"
+            >Acerca de</a
+          >
+        </li>
+        <li class="w-full sm:flex sm:items-center">
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6 mr-6 cursor-pointer sm:hidden"
+      (click)="mostrarMenu()"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      />
+    </svg> -->
+
+    <!-- <nav
+      class="absolute bg-slate-300 top-16 z-0 right-0 w-full -translate-y-40 invisible sm:static sm:w-auto sm:flex sm:items-center sm:justify-center sm:gap-4 sm:mr-6 sm:bg-slate-50 sm:translate-y-0 sm:visible"
+      id="nav"
+    >
+      <ul
+        class="flex flex-col justify-center items-center sm:flex sm:flex-row sm:gap-3"
+      >
+        <li class="py-3 sm:py-0">
+          <a
+            routerLink="clientes"
+            class="text-base cursor-pointer hover:text-zinc-600 font-semibold sm:text-sm sm:hover:underline"
+            >Clientes</a
+          >
+        </li>
+        <li class="py-3 sm:py-0">
           <a
             routerLink="servicios"
-            class="text-sm cursor-pointer hover:underline"
+            class="text-base cursor-pointer hover:text-zinc-600 font-semibold sm:text-sm sm:hover:underline"
             >Servicios</a
           >
         </li>
       </ul>
-    </nav>
+    </nav> -->
   </header>
   <app-ver-clientes class="flex justify-center mt-28" />
 
