@@ -1,6 +1,6 @@
-<div class="relative overflow-x-auto">
+<div class="relative overflow-x-auto mx-5">
   <table
-    class="mx-12 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 font-semibold border"
+    class="min-w-full divide-y divide-gray-200 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 font-semibold border"
   >
     <caption
       class="text-base text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400 border py-2"
@@ -11,35 +11,65 @@
       class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400 border"
     >
       <tr>
-        <th scope="col" class="border px-3 py-3 text-center">Id</th>
-        <th scope="col" class="border px-3 py-3 text-center">
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Id
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
           Nombre y apellido
         </th>
-        <th scope="col" class="border px-3 py-3 text-center">Dirección</th>
-        <th scope="col" class="border px-3 py-3 text-center">Telefono</th>
-        <th scope="col" class="border px-3 py-3 text-center">Email</th>
-        <th scope="col" class="border px-3 py-3 text-center">Tipo docuemtno</th>
-        <th scope="col" class="border px-3 py-3 text-center">No Documento</th>
-        <th scope="col" class="border px-3 py-3 text-center">Password</th>
-        <th scope="col" class="border px-3 py-3 text-center">Estado</th>
-        <th scope="col" class="border px-3 py-3 text-center">Acciones</th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Dirección
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Telefono
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Email
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Tipo docuemtno
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          No Documento
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Password
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Estado
+        </th>
+        <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+          Acciones
+        </th>
       </tr>
     </thead>
 
-    <tbody>
+    <tbody class="divide-y divide-gray-200">
       @for (cliente of misClientes; track $index) {
       <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
         <td scope="border row" class="px-5 py-3">
           {{ cliente.id }}
         </td>
-        <td class="border px-4 py-3">{{ cliente.nombre }}</td>
-        <td class="border px-4 py-3">{{ cliente.direccion }}</td>
-        <td class="border px-4 py-3">{{ cliente.telefono }}</td>
-        <td class="border px-4 py-3">{{ cliente.email }}</td>
-        <td class="border px-4 py-3">{{ cliente.tipoDocumento }}</td>
+        <td class="border px-4 py-3 whitespace-no-wrap">
+          {{ cliente.nombre }}
+        </td>
+        <td class="border px-4 py-3 whitespace-no-wrap">
+          {{ cliente.direccion }}
+        </td>
+        <td class="border px-4 py-3 whitespace-no-wrap">
+          {{ cliente.telefono }}
+        </td>
+        <td class="border px-4 py-3 whitespace-no-wrap">{{ cliente.email }}</td>
+        <td class="border px-4 py-3 whitespace-no-wrap">
+          {{ cliente.tipoDocumento }}
+        </td>
         <td class="border px-4 py-3">{{ cliente.numeroDocumento }}</td>
-        <td class="border px-4 py-3">{{ cliente.password }}</td>
-        <td class="border px-4 py-3 text-center">{{ cliente.estado }}</td>
+        <td class="border px-4 py-3 whitespace-no-wrap">
+          {{ cliente.password }}
+        </td>
+        <td class="border px-4 py-3 text-center whitespace-no-wrap">
+          {{ cliente.estado }}
+        </td>
         <td class="flex justify-center items-center mt-4 ml-1">
           <button
             type="button"

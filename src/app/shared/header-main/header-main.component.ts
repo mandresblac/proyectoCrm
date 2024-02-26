@@ -18,9 +18,9 @@ export class HeaderMainComponent {
     const { value: formValues } = await Swal.fire({
     title: "Log in",
     html: `
-      <input type="email" id="email" class="swal2-input"
+      <input type="email" id="email" class="swal2-input mx-3"
       placeholder="Email Address" value="Cualquier cosa">
-      <input type="password" id="password" class="swal2-input" placeholder="Password" value="Otro cualquier cosa">
+      <input type="password" id="password" class="swal2-input mx-3" placeholder="Password" value="Otro cualquier cosa">
     `,
     focusConfirm: false,
     preConfirm: () => {
