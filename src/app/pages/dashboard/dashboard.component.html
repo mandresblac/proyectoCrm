@@ -24,7 +24,6 @@
         stroke-width="1.5"
         stroke="#fff"
         class="w-6 h-6 sm:hidden"
-        (click)="mostrarMenu()"
       >
         <path
           stroke-linecap="round"
@@ -47,6 +46,7 @@
           <a
             href="#"
             class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            routerLink="clientes"
             >Clientes</a
           >
         </li>
@@ -54,6 +54,7 @@
           <a
             href="#"
             class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            routerLink="servicios"
             >Servicios</a
           >
         </li>
@@ -61,6 +62,7 @@
           <a
             href="#"
             class="block px-4 py-2 hover:bg-gray-100 sm:whitespace-nowrap dark:hover:bg-gray-600 dark:hover:text-white"
+            routerLink="acerca de"
             >Acerca de</a
           >
         </li>
@@ -68,51 +70,12 @@
           <a
             href="#"
             class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            routerLink="clontacto"
             >Contacto</a
           >
         </li>
       </ul>
     </div>
-
-    <!-- <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke="currentColor"
-      class="w-6 h-6 mr-6 cursor-pointer sm:hidden"
-      (click)="mostrarMenu()"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-      />
-    </svg> -->
-
-    <!-- <nav
-      class="absolute bg-slate-300 top-16 z-0 right-0 w-full -translate-y-40 invisible sm:static sm:w-auto sm:flex sm:items-center sm:justify-center sm:gap-4 sm:mr-6 sm:bg-slate-50 sm:translate-y-0 sm:visible"
-      id="nav"
-    >
-      <ul
-        class="flex flex-col justify-center items-center sm:flex sm:flex-row sm:gap-3"
-      >
-        <li class="py-3 sm:py-0">
-          <a
-            routerLink="clientes"
-            class="text-base cursor-pointer hover:text-zinc-600 font-semibold sm:text-sm sm:hover:underline"
-            >Clientes</a
-          >
-        </li>
-        <li class="py-3 sm:py-0">
-          <a
-            routerLink="servicios"
-            class="text-base cursor-pointer hover:text-zinc-600 font-semibold sm:text-sm sm:hover:underline"
-            >Servicios</a
-          >
-        </li>
-      </ul>
-    </nav> -->
   </header>
   <app-ver-clientes class="flex justify-center mt-28" />
 
