@@ -1,11 +1,10 @@
 export interface Cliente {
-  id: number,
+  _id: number, // Parametro de solo lectura
   nombre: string,
   direccion: string,
   telefono: string,
   email: string,
   tipoDocumento: string,
   numeroDocumento: string,
-  password: string,
   estado: boolean
 }

@@ -1,3 +1,4 @@
+import { ClientesService } from './../../services/clientes/clientes.service';
 import { SignUpComponent } from './../../components/sign-up/sign-up.component';
 import { Component, OnInit } from '@angular/core';
 import { Cliente } from '../../core/interfaces/cliente';
@@ -13,47 +14,36 @@ export class VerClientesComponent implements OnInit {
 
   misClientes: Cliente[] = [];
 
+  constructor(private clienteService: ClientesService ) {}
+
   ngOnInit() {
-    this.misClientes.push(
-      {
-        id: 1,
-        nombre: "Juan Perez",
-        direccion: "Carrera 58 # 13-22",
-        telefono: "3 124578910",
-        email: "micorreo@gmail.com",
-        tipoDocumento: "Cedula ciudadania",
-        numeroDocumento: "42879650",
-        password: "Jp5792",
-        estado: true
-      },
-      {
-        id: 2,
-        nombre: "Maria Torre",
-        direccion: "Calle 26 # 80-04",
-        telefono: "31802529874",
-        email: "micorreo@gmail.com",
-        tipoDocumento: "Pasaporte",
-        numeroDocumento: "9671235",
-        password: "Mt8200",
-        estado: false
-      },
-      {
-        id: 3,
-        nombre: "Carolina Santamaria",
-        direccion: "Carrera 24 # 57-82",
-        telefono: "311 58929741",
-        email: "micorreo@gmail.com",
-        tipoDocumento: "Cedula de extranjeria",
-        numeroDocumento: "96742058",
-        password: "Cs9708",
-        estado: true
-      },
-      
+    this.clienteService.getClientes().subscribe((data: any) => {
+      console.log(data);
+
+      this.misClientes = data.clientes;
+    });
+  }
+
+  eliminarCliente(idCliente: number): void {
+    this.misClientes = this.misClientes.filter(
+      cliente => cliente._id !== idCliente
     );
 
-    // Iteracion de clientes
-      this.misClientes.forEach((cliente) => {
-        console.log("Mis clientes", cliente);
-      });
+    console.log("Eliminar", this.misClientes)
+  }
+
+  agregarCliente() {
+    // this.clienteService.crearClientes({data: "cliente"}).subscribe();
+
+    this.misClientes.push({
+      _id: 2,
+      nombre: "Maria",
+      direccion: "Carrera 25",
+      telefono: "2354793",
+      email: "correo12@gmail.com",
+      tipoDocumento: "Pasaporte",
+      numeroDocumento: "Br2584",
+      estado: true,
+    });
   }
 }
