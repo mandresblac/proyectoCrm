@@ -1,6 +1,8 @@
 import { AutenticacionService } from './../../services/autenticacion/autenticacion.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 // import Swal from 'sweetalert2';
 
 @Component({
@@ -14,8 +16,10 @@ export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
 
   constructor(
+    // Aqui inyectamos
     private formBuilder: FormBuilder,
-    private autenticacionService: AutenticacionService
+    private autenticacionService: AutenticacionService,
+    private router: Router
     ) {}
 
   ngOnInit(): void {
@@ -34,7 +38,28 @@ export class LoginComponent implements OnInit {
   }
 
   realizoLogin() {
-    console.log("Realizo login", this.loginForm)
-  }
+    if (this.loginForm.invalid) {
+      return;
+    }
 
+    const data = this.loginForm.value;
+
+    this.autenticacionService.login(data).subscribe({
+      next: (resp: any) => {
+        if (resp && resp.usuario) {
+          const { nombre, login, email } = resp.usuario;
+
+          // Modal de la libreria sweetalert2
+          Swal.fire({
+            html: `Bienvenido ${nombre}`
+          }).then(() => {
+            this.router.navigateByUrl("dashboard");
+          });
+        }
+      },
+      error: (error: any) => {
+        console.error(error.error.msg);
+      }
+    });
+  }
 }
