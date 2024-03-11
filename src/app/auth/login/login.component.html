@@ -1,24 +1,66 @@
-<div class="flex justify-center items-center mt-40 mb-20" id="modal">
+<div class="flex justify-center items-center h-screen">
   <form
-    action=""
-    class="w-64 h-64 flex flex-col items-center justify-center gap-y-6"
+    class="w-full border border-gray-300 p-6 rounded-md mx-5 sm:mx-0 sm:w-1/2 md:w-1/2 lg:w-1/3 shadow-xl"
+    [formGroup]="loginForm"
+    (submit)="realizoLogin()"
   >
-    <h1 class="text-2xl font-semibold">Log in</h1>
-    <input
-      type="email"
-      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
-      placeholder="Email Address"
-    />
-    <input
-      type="password"
-      placeholder="Password"
-      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
-    />
+    <h1 class="text-2xl font-semibold">Iniciar sesión</h1>
+    <div class="mt-5 mb-5">
+      <label
+        for="email"
+        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        >Escribe tu email</label
+      >
+      <input
+        type="email"
+        id="email"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 outline-none peer"
+        placeholder="name@flowbite.com"
+        formControlName="login"
+      />
 
-    <input
-      type="submit"
-      value="Log in"
-      class="text-lg w-full bg-violet-700 py-2 mb-4 rounded-md hover:bg-purple-800 text-white text-center cursor-pointer font-medium"
-    />
+      @if (login?.invalid && login?.touched) {
+      <div>
+        <small class="text-red-600">El nombre de usuario es obligatorio</small>
+      </div>
+      }
+    </div>
+    <div class="mb-5">
+      <label
+        for="password"
+        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        >Contraseña</label
+      >
+      <input
+        type="password"
+        id="password"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        formControlName="password"
+      />
+
+      @if (password?.invalid && password?.touched) {
+      <div class="flex flex-col">
+        <small class="text-red-600"> El password es obligatorio </small>
+      </div>
+      @if (password?.hasError("minlength")) {
+      <small class="text-red-600">
+        El password no tiene la longitud minima
+      </small>
+      }}
+    </div>
+    <div
+      class="flex flex-col items-start mb-5 sm:flex-row sm:justify-between sm:items-center"
+    >
+      <a href="#" class="text-sm hover:text-cyan-700 mb-5 sm:mb-0">
+        ¿olvidaste tu contraseña?
+      </a>
+      <button
+        type="submit"
+        class="text-white bg-violet-400 focus:ring-4 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-violet dark:hover:bg-violet dark:focus:bg-violet-800 sm:order-first"
+        [disabled]="!loginForm.valid"
+      >
+        iniciar sesión
+      </button>
+    </div>
   </form>
 </div>

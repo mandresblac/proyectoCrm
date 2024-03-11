@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { HttpClient } from '@angular/common/http';
+import { ClienteModel } from '../../core/models/cliente.model';
 
 // Constante global
 const base_url = environment.base_url;
@@ -16,7 +17,7 @@ export class ClientesService {
     return this.httpClient.get(`${base_url}/cliente`);
   }
 
-  crearClientes() {
-    return this.httpClient.post(`${base_url}/cliente`, {});
+  crearClientes(cliente: ClienteModel) {
+    return this.httpClient.post(`${base_url}/cliente`, cliente);
   }
 }

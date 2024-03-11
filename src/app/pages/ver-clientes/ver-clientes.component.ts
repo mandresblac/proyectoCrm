@@ -35,15 +35,16 @@ export class VerClientesComponent implements OnInit {
   agregarCliente() {
     // this.clienteService.crearClientes({data: "cliente"}).subscribe();
 
-    this.misClientes.push({
-      _id: 2,
-      nombre: "Maria",
-      direccion: "Carrera 25",
-      telefono: "2354793",
-      email: "correo12@gmail.com",
-      tipoDocumento: "Pasaporte",
-      numeroDocumento: "Br2584",
-      estado: true,
-    });
+    // this.misClientes.push({
+    //   _id: 2,
+    //   nombre: "Maria",
+    //   direccion: "Carrera 25",
+    //   telefono: "2354793",
+    //   email: "correo12@gmail.com",
+    //   tipoDocumento: "Pasaporte",
+    //   numeroDocumento: "Br2584",
+    //   password: "123456",
+    //   estado: true,
+    // });
   }
 }
