@@ -4,19 +4,20 @@ import { VerClientesComponent } from "../ver-clientes/ver-clientes.component";
 import { ServiciosComponent } from "../servicios/servicios.component";
 
 export const routes: Routes = [
-  {
-    path: "", // Ruta o path
-    title: "dashboard" ,
-    component: DashboardComponent
-  },
-  {
-    path: "clientes", 
-    title: "clientes",
-    component: VerClientesComponent
-  },
-  {
-    path: "servicios", 
-    title: "servicios",
-    component: ServiciosComponent
-  }
+  // {
+  //   path: "", // Ruta o path
+  //   title: "dashboard" ,
+  //   component: DashboardComponent
+  // },
+  // {
+  //   path: "servicios", 
+  //   title: "servicios",
+  //   component: ServiciosComponent
+  // },
+  // {
+  //   path: "clientes", 
+  //   title: "clientes",
+  //   component: VerClientesComponent
+  // },
+  
 ];

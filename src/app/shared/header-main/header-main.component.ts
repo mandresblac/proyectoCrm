@@ -10,32 +10,5 @@ import Swal from 'sweetalert2';
   styleUrl: './header-main.component.css'
 })
 export class HeaderMainComponent {
-  constructor(  
-    private router: Router
-  ) {}
-
-   async login() {
-  //   const { value: formValues } = await Swal.fire({
-  //   title: "Log in",
-  //   html: `
-  //     <input type="email" id="email" class="swal2-input mx-3 rounded-md"
-  //     placeholder="Email Address" >
-  //     <input type="password" id="password" class="swal2-input mx-3 rounded-md" placeholder="Password" >
-  //   `,
-  //   focusConfirm: false,
-  //   preConfirm: () => {
-  //     return [
-  //       (document.getElementById('email') as HTMLInputElement).value,
-  //       (document.getElementById('password') as HTMLInputElement).value,
-  //     ];
-  //   }
-  // });
-  // if (formValues) {
-
-  //   // Logica de redireccion a menu principal
-  //   this.router.navigateByUrl("dashboard");
-  //   // Swal.fire(JSON.stringify(formValues));
-  //   // console.log(formValues)
-  // }
- }
+  constructor() {}
 }

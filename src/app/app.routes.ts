@@ -12,11 +12,6 @@ export const routes: Routes = [
     component: InicioComponent,
   },
   {
-    path: "home", // Ruta o path
-    title: "home",
-    component: InicioComponent,
-  },
-  {
     path: "login", // Ruta o path
     title: "Login",
     component: LoginComponent,

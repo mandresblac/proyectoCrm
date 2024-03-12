@@ -51,7 +51,9 @@ export class AutenticacionService {
           password,
           rol,
           estado,
-          createdAt
+          createdAt,
+          // Completar con telefono y direccion sin login igual que en el modelo
+
           );
           localStorage.setItem('token', resp.token);
           return true;

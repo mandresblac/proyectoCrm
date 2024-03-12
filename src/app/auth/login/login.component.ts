@@ -24,13 +24,13 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
       this.loginForm = this.formBuilder.group({
-      login: ["", [Validators.required, Validators.email]],
+      email: ["", [Validators.required, Validators.email]],
       password: ["", [Validators.required, Validators.minLength(5)]],
     });
   }
 
-  get login() {
-    return this.loginForm.get("login")
+  get email() {
+    return this.loginForm.get("email")
   }
 
   get password() {
@@ -53,7 +53,7 @@ export class LoginComponent implements OnInit {
           Swal.fire({
             html: `Bienvenido ${nombre}`
           }).then(() => {
-            this.router.navigateByUrl("dashboard");
+            this.router.navigateByUrl("dashboard/clientes");
           });
         }
       },
