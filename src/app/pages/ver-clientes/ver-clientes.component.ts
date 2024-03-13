@@ -1,7 +1,7 @@
-import { ClientesService } from './../../services/clientes/clientes.service';
 import { SignUpComponent } from './../../components/sign-up/sign-up.component';
 import { Component, OnInit } from '@angular/core';
-import { Cliente } from '../../core/interfaces/cliente';
+import { UsuarioService } from '../../services/usuario/usuario.service';
+import { UsuarioModel } from '../../core/models/usuario.model';
 
 @Component({
   selector: 'app-ver-clientes',
@@ -12,24 +12,24 @@ import { Cliente } from '../../core/interfaces/cliente';
 })
 export class VerClientesComponent implements OnInit {
 
-  misClientes: Cliente[] = [];
+  misUsuarios: UsuarioModel[] = [];
 
-  constructor(private clienteService: ClientesService ) {}
+  constructor(private usuarioService: UsuarioService ) {}
 
   ngOnInit() {
-    this.clienteService.getClientes().subscribe((data: any) => {
+    this.usuarioService.getUsuarios().subscribe((data: any) => {
       console.log(data);
 
-      this.misClientes = data.clientes;
+      this.misUsuarios = data.usuarios;
     });
   }
 
-  eliminarCliente(idCliente: number): void {
-    this.misClientes = this.misClientes.filter(
-      cliente => cliente._id !== idCliente
+  eliminarCliente(idUsuario: string): void {
+    this.misUsuarios = this.misUsuarios.filter(
+      usuario => usuario._id !== idUsuario
     );
 
-    console.log("Eliminar", this.misClientes)
+    console.log("Eliminar", this.misUsuarios)
   }
 
   agregarCliente() {

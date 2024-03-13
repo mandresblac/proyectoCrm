@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { UsuarioService } from '../../services/usuario/usuario.service';
 import { UsuarioModel } from '../../core/models/usuario.model';
+import { UsuarioInterface } from '../../core/interfaces/usuario.interface';
 
 @Component({
   selector: 'app-sign-up',
@@ -32,7 +33,7 @@ export class SignUpComponent {
     const  usuarioNuevo = this.usuarioForm.value;
 
     if (this.usuarioForm.valid) {
-      const data: UsuarioModel = {
+      const data: UsuarioInterface = {
       nombre: usuarioNuevo.nombre || "",
       telefono: usuarioNuevo.telefono || "",
       email: usuarioNuevo.email || "",

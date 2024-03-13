@@ -1,5 +1,6 @@
 export  class UsuarioModel {
   constructor(
+    public readonly _id: string,
     public nombre: string,
     public telefono: string,
     public email: string,
@@ -9,7 +10,6 @@ export  class UsuarioModel {
     public rol?: string,
     public estado?: boolean,
     public createdAt?: Date,
-    public readonly _id?: string,
     public direccion?: string,
   ) {}
 }
