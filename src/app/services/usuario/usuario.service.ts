@@ -12,12 +12,24 @@ export class UsuarioService {
 
   constructor(private httpClient: HttpClient) {}
 
+  get token(): string { 
+    return localStorage.getItem('token') || ""; 
+  }
+
+  get headers() {
+    return {
+      headers: {
+        "x-token": this.token,
+      }
+    };
+  };
+
   // Esto se cambia para obtener los usuarios en la tabla de ver cliente
   getUsuarios() {
-    return this.httpClient.get(`${base_url}/usuario`);
+    return this.httpClient.get(`${base_url}/usuario`, this.headers);
   }
 
   crearUsuarios(usuario: UsuarioInterface) {
-    return this.httpClient.post(`${base_url}/usuario`, usuario);
+    return this.httpClient.post(`${base_url}/usuario`, usuario, this.headers);
   }
 }

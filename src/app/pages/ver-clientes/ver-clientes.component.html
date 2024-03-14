@@ -1,6 +1,9 @@
-<div class="relative overflow-x-auto mx-5 mt-[108px]">
+<ng-template
+  class="relative overflow-x-auto mx-5 mt-[108px]"
+  [appPermisos]="['ADMIN']"
+>
   <table
-    class="min-w-full divide-y divide-gray-200 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 font-semibold border"
+    class="divide-y divide-gray-200 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 font-semibold border mt-24 mx-3 sm:mt-24 sm:m-auto"
   >
     <caption
       class="text-base text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400 border py-2"
@@ -136,4 +139,4 @@
       }
     </tbody>
   </table>
-</div>
+</ng-template>

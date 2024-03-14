@@ -2,11 +2,12 @@ import { SignUpComponent } from './../../components/sign-up/sign-up.component';
 import { Component, OnInit } from '@angular/core';
 import { UsuarioService } from '../../services/usuario/usuario.service';
 import { UsuarioModel } from '../../core/models/usuario.model';
+import { PermisosDirective } from '../../core/directives/permisos/permisos.directive';
 
 @Component({
   selector: 'app-ver-clientes',
   standalone: true,
-  imports: [SignUpComponent],
+  imports: [SignUpComponent, PermisosDirective],
   templateUrl: './ver-clientes.component.html',
   styleUrl: './ver-clientes.component.css'
 })
