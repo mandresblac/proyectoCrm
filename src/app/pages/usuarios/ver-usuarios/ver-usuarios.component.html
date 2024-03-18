@@ -8,7 +8,7 @@
     <caption
       class="text-base text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400 border py-2"
     >
-      Tabla de Usuarios
+      Tabla de usuarios
     </caption>
     <thead
       class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400 border"
@@ -71,12 +71,8 @@
           {{ usuario.numeroDocumento }}
         </td>
 
-        <td class="border px-4 py-3">
-          <select
-            class="p-1 rounded-md text-sm"
-            [(ngModel)]="usuario.rol"
-            (change)="actualizarRol(usuario)"
-          >
+        <td>
+          <select [(ngModel)]="usuario.rol" (change)="actualizarRol(usuario)">
             @for (rol of roles; track $index) {
             <option [value]="rol">{{ rol }}</option>
             }

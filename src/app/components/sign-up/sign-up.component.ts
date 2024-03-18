@@ -39,8 +39,8 @@ export class SignUpComponent {
       email: usuarioNuevo.email || "",
       tipoDocumento: usuarioNuevo.tipoDocumento || "",
       numeroDocumento: usuarioNuevo.numeroDocumento || "",
-      password: usuarioNuevo.password || "",
       direccion: usuarioNuevo.direccion || "",
+      password: usuarioNuevo.password || "",
       };
 
       // Invocamos el servicio

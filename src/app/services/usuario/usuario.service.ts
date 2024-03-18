@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { UsuarioInterface } from '../../core/interfaces/usuario.interface';
+import { UsuarioModel } from '../../core/models/usuario.model';
 
 const base_url = environment.base_url;
 
@@ -31,5 +32,14 @@ export class UsuarioService {
 
   crearUsuarios(usuario: UsuarioInterface) {
     return this.httpClient.post(`${base_url}/usuario`, usuario, this.headers);
+  }
+
+  //TODO Completar la definicion de mi servicio
+  actualizarUnUsuario(usuario: UsuarioModel) {
+    return this.httpClient.put(`${base_url}/usuario/${usuario._id}`, usuario, this.headers);
+  }
+
+  eliminarUnUsuario(id: string) {
+    return this.httpClient.delete(`${base_url}/usuario/${id}`, this.headers );
   }
 }

@@ -1,24 +1,23 @@
-import { SignUpComponent } from './../../components/sign-up/sign-up.component';
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { UsuarioService } from '../../services/usuario/usuario.service';
-import { UsuarioModel } from '../../core/models/usuario.model';
-import { PermisosDirective } from '../../core/directives/permisos/permisos.directive';
 import { Subscription } from 'rxjs';
-import { AutenticacionService } from '../../services/autenticacion/autenticacion.service';
 import Swal from 'sweetalert2';
-import { config } from '../../../environments/configuracion/config';
+import { UsuarioModel } from '../../../core/models/usuario.model';
+import { UsuarioService } from '../../../services/usuario/usuario.service';
+import { AutenticacionService } from '../../../services/autenticacion/autenticacion.service';
+import { SignUpComponent } from '../../../components/sign-up/sign-up.component';
+import { PermisosDirective } from '../../../core/directives/permisos/permisos.directive';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { config } from '../../../../environments/configuracion/config';
 
 @Component({
-  selector: 'app-ver-clientes',
+  selector: 'app-ver-usuarios',
   standalone: true,
   imports: [FormsModule, RouterLink, SignUpComponent, PermisosDirective],
-  templateUrl: './ver-clientes.component.html',
-  styleUrl: './ver-clientes.component.css'
+  templateUrl: './ver-usuarios.component.html',
+  styleUrl: './ver-usuarios.component.css'
 })
-export class VerClientesComponent implements OnInit, OnDestroy {
-
+export class VerUsuariosComponent implements OnInit, OnDestroy {
   // Variables
   usuarioSubscription: Subscription;
   usuarios: UsuarioModel[] = [];

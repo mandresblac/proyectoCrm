@@ -31,8 +31,8 @@ export const routes: Routes = [
       }, 
       {
         path: "servicios", 
-      title: "servicios",
-      component: ServiciosComponent
+        title: "servicios",
+        component: ServiciosComponent
       }
     ] 
   },
