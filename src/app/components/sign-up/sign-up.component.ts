@@ -3,6 +3,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { UsuarioService } from '../../services/usuario/usuario.service';
 import { UsuarioModel } from '../../core/models/usuario.model';
 import { UsuarioInterface } from '../../core/interfaces/usuario.interface';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-sign-up',
@@ -46,7 +47,14 @@ export class SignUpComponent {
       // Invocamos el servicio
       this.usuarioService.crearUsuarios(data).subscribe({
         next: (resp: any) => {
-          console.log("usiario creado", resp)
+          // console.log("usiario creado", resp)
+          Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Tu registro ha sido exitoso",
+            showConfirmButton: false,
+            timer: 1500            
+          })
           this.usuarioForm.reset(); // Resetea formulario
         },
         error: (error: any) => {

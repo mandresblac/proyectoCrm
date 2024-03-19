@@ -1,0 +1,15 @@
+<div id="chart" class="flex flex-wrap justify-center items-center mt-24">
+  <div
+    class="flex flex-col text-center border border-gray-300 rounded-md shadow-lg mx-10"
+  >
+    <h2 class="uppercase my-4">Oportunidades</h2>
+    <apx-chart
+      class="mb-4"
+      #realTimeChart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [labels]="chartOptions.labels"
+      [responsive]="chartOptions.responsive"
+    ></apx-chart>
+  </div>
+</div>
