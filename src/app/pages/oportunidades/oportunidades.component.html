@@ -1,0 +1,65 @@
+<table
+  class="divide-y divide-gray-200 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 font-semibold border mt-24 mx-3 sm:mt-24 sm:m-auto"
+>
+  <caption
+    class="text-base text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400 border py-2"
+  >
+    Seguimiento de oportunidades
+  </caption>
+  <thead
+    class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400 border"
+  >
+    <tr>
+      <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+        Item
+      </th>
+      <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+        Nombre y apellido
+      </th>
+      <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+        Dirección
+      </th>
+      <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+        Telefono
+      </th>
+
+      <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+        Email
+      </th>
+
+      <th scope="col" class="border px-3 py-3 text-center whitespace-no-wrap">
+        Estado
+      </th>
+    </tr>
+  </thead>
+
+  <tbody class="divide-y divide-gray-200">
+    @for (usuario of usuarios; track $index) {
+    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+      <td scope="border row" class="px-5 py-3">
+        {{ $index + 1 }}
+      </td>
+      <td class="border px-4 py-3 whitespace-no-wrap">
+        {{ usuario.nombre }}
+      </td>
+      <td class="border px-4 py-3 whitespace-no-wrap">
+        {{ usuario.direccion }}
+      </td>
+      <td class="border px-4 py-3 whitespace-no-wrap">
+        {{ usuario.telefono }}
+      </td>
+      <td class="border px-4 py-3 whitespace-no-wrap">{{ usuario.email }}</td>
+      <td>
+        <select
+          class="rounded-lg text-sm px-1 py-1 mx-3 my-3"
+          (change)="actualizarEstado(usuario)"
+        >
+          <option *ngFor="let oport of oportunidades" [value]="oport">
+            {{ oport }}
+          </option>
+        </select>
+      </td>
+    </tr>
+    }
+  </tbody>
+</table>

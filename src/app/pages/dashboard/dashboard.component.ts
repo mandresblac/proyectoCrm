@@ -1,7 +1,6 @@
 import { AutenticacionService } from './../../services/autenticacion/autenticacion.service';
 import { Component, inject } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { VerClientesComponent } from '../ver-clientes/ver-clientes.component';
 import { FooterComponent } from '../../shared/footer/footer.component';
 import { ServiciosComponent } from '../servicios/servicios.component';
 import { ROUTER_APP } from '../../core/enum/router-app.enum';
@@ -10,7 +9,7 @@ import { VerUsuariosComponent } from '../usuarios/ver-usuarios/ver-usuarios.comp
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RouterOutlet, VerClientesComponent, FooterComponent, RouterLink, ServiciosComponent, VerUsuariosComponent],
+  imports: [RouterOutlet, FooterComponent, RouterLink, ServiciosComponent, VerUsuariosComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })

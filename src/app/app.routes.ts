@@ -2,9 +2,12 @@ import { Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { InicioComponent } from './pages/inicio/inicio.component';  
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { VerClientesComponent } from './pages/ver-clientes/ver-clientes.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { authGuard } from './guards/auth/auth.guard';
+import { OportunidadesComponent } from './pages/oportunidades/oportunidades.component';
+import { VerUsuariosComponent } from './pages/usuarios/ver-usuarios/ver-usuarios.component';
+import { InformesComponent } from './pages/informes/informes.component';
+
 
 
 export const routes: Routes = [
@@ -25,14 +28,20 @@ export const routes: Routes = [
     canActivate: [authGuard],
     component: DashboardComponent, children: [
       {
-        path: "clientes", 
-        title: "clientes",
-        component: VerClientesComponent
-      }, 
+        path: "usuarios", 
+        title: "usuarios",
+        component: VerUsuariosComponent
+      },
       {
-        path: "servicios", 
-        title: "servicios",
-        component: ServiciosComponent
+        path: "oportunidades", 
+        title: "oportunidades",
+        component: OportunidadesComponent
+      }
+      ,
+      {
+        path: "informes", 
+        title: "informes",
+        component: InformesComponent
       }
     ] 
   },

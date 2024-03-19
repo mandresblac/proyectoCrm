@@ -53,7 +53,7 @@ export class LoginComponent implements OnInit {
           Swal.fire({
             html: `Bienvenido ${nombre}`
           }).then(() => {
-            this.router.navigateByUrl("dashboard/clientes");
+            this.router.navigateByUrl("dashboard/usuarios");
           });
         }
       },
