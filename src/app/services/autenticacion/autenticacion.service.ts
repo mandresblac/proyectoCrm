@@ -76,6 +76,6 @@ export class AutenticacionService {
 
   logout() {
     localStorage.removeItem("token");
-    this.router.navigateByUrl("login");
+    this.router.navigateByUrl("");
   } 
 }

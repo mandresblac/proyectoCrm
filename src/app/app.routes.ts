@@ -7,11 +7,11 @@ import { authGuard } from './guards/auth/auth.guard';
 import { OportunidadesComponent } from './pages/oportunidades/oportunidades.component';
 import { VerUsuariosComponent } from './pages/usuarios/ver-usuarios/ver-usuarios.component';
 import { InformesComponent } from './pages/informes/informes.component';
+import { InteraccionesComponent } from './pages/interacciones/interacciones.component';
 
 
 
 export const routes: Routes = [
-
   {
     path: "", // Ruta o path
     title: "inicio",
@@ -42,10 +42,15 @@ export const routes: Routes = [
         path: "informes", 
         title: "informes",
         component: InformesComponent
+      },
+      {
+        path: "interacciones", 
+        title: "interacciones",
+        component: InteraccionesComponent
       }
     ] 
   },
 
   // Si se encuentra la ruta, redirecciona el login
-  // {path: "**", redirectTo: "auth/login", pathMatch: "full"},
+  {path: "**", redirectTo: "auth/inicio", pathMatch: "full"},
 ];

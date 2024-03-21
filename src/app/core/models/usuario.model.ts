@@ -7,6 +7,7 @@ export  class UsuarioModel {
     public tipoDocumento: string,
     public numeroDocumento: string,
     public password: string,
+    // public oportunidades: string,
     public rol?: string,
     public estado?: boolean,
     public createdAt?: Date,
