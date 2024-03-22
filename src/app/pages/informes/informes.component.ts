@@ -54,5 +54,5 @@ export class InformesComponent implements OnInit{
     // Retornamos
     return `Perdida: ${total.perdida.length} \nGanada: ${total.ganada.length} \nEn proceso: ${total.enProceso.length} \nCerrada: ${total.cerrada.length}`;
     
-};
+  };
 }

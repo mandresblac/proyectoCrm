@@ -64,7 +64,7 @@ export class EditarUsuariosComponent implements OnInit {
       next: (resp: any) => {
         Swal.fire(
           'Usuario Actualizado',
-          `El usuario se actualizó satisfactoriamente`,
+          `Se actualizó el usuario ${resp.usuario.nombre}`,
           'success'
         );
 

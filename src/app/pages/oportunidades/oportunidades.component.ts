@@ -41,7 +41,7 @@ ngOnInit(): void {
     this.usuarioService.actualizarUnUsuario(usuario).subscribe((resp: any) => {
       Swal.fire(
         'Actualizado',
-        `Se actualizó el usuario ${resp.usuario.nombre}`,
+        `Se actualizó oportunidad de ${resp.usuario.nombre}`,
         'success'
       );
       console.log(resp);
