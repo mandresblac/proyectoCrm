@@ -30,6 +30,10 @@ export class UsuarioService {
     return this.httpClient.get(`${base_url}/usuario`, this.headers);
   }
 
+  getUnUsuario(id: string) {
+    return this.httpClient.get(`${base_url}/usuario/${id}`, this.headers);
+  }
+
   crearUsuarios(usuario: UsuarioInterface) {
     return this.httpClient.post(`${base_url}/usuario`, usuario, this.headers);
   }

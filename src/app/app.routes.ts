@@ -1,3 +1,4 @@
+import { EditarUsuariosComponent } from './pages/usuarios/editar-usuarios/editar-usuarios.component';
 import { Routes } from '@angular/router';
 import { LoginComponent } from './auth/login/login.component';
 import { InicioComponent } from './pages/inicio/inicio.component';  
@@ -47,7 +48,8 @@ export const routes: Routes = [
         path: "interacciones", 
         title: "interacciones",
         component: InteraccionesComponent
-      }
+      },
+      { path: "editar-usuarios/:id", title: "editar usuarios", component: EditarUsuariosComponent }
     ] 
   },
 

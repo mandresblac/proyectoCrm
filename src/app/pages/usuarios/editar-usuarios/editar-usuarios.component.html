@@ -1,0 +1,121 @@
+<form
+  class="w-3/6 flex flex-col justify-center items-center gap-4 mt-28 m-auto"
+  [formGroup]="usuarioForm"
+  (submit)="actualizarUsuario()"
+>
+  <h2 class="text-2xl">Editar Usuario</h2>
+
+  <label class="w-full"
+    >Nombre Completo
+
+    <input
+      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      type="text"
+      placeholder="Nombre y apellido"
+      formControlName="nombre"
+    />
+  </label>
+
+  <label class="w-full"
+    >Direccion
+
+    <input
+      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      type="text"
+      placeholder="Direccion"
+      formControlName="direccion"
+    />
+  </label>
+
+  <label class="w-full"
+    >Telefono
+
+    <input
+      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      type="text"
+      placeholder="Telefono"
+      formControlName="telefono"
+    />
+  </label>
+
+  <label class="w-full"
+    >Email
+
+    <input
+      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      type="email"
+      placeholder="Email"
+      formControlName="email"
+    />
+  </label>
+
+  <label class="w-full">
+    Tipo de documento
+
+    <select
+      class="text-gray-400 text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      name="document-type"
+      id="dt"
+      formControlName="tipoDocumento"
+    >
+      <option value="" selected disabled>Tipo de documento</option>
+      <option class="text-gray-700" value="ti">Tarjeta de identidad</option>
+      <option class="text-gray-700" value="cc">Cedula de ciudadania</option>
+      <option class="text-gray-700" value="te">Tarjeta de extranjeria</option>
+      <option class="text-gray-700" value="ce">Cedula de extranjeria</option>
+      <option class="text-gray-700" value="pas">Pasaporte</option>
+    </select>
+  </label>
+
+  <label class="w-full">
+    Numero de documento
+
+    <input
+      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      type="text"
+      placeholder="Numero de documento"
+      formControlName="numeroDocumento"
+    />
+  </label>
+
+  <label class="w-full">
+    Rol
+    <select
+      formControlName="rol"
+      class="rounded-lg text-sm py-1 !pr-[2rem] w-full"
+    >
+      @for (rol of roles; track $index) {
+      <option [value]="rol">{{ rol }}</option>
+      }
+    </select>
+  </label>
+
+  <!-- <div class="w-full">
+    <input
+      class="text-lg w-full outline-none border border-gray-500 rounded-md pl-3 py-0.5 focus:ring-blue-500 focus:border-blue-500 focus:bg-blue-50"
+      type="password"
+      placeholder="Contraseña"
+      formControlName="password"
+    />
+    <span class="inline-block text-sm leading-none mt-1 text-neutral-600"
+      >La contraseña debe tener minimo 5 caracteres.</span
+    >
+  </div> -->
+
+  <div class="flex flex-col mt-3 w-full sm:flex-row sm:gap-16">
+    <button
+      type="submit"
+      class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 w-full cursor-pointer"
+    >
+      Editar
+    </button>
+
+    <button
+      type="submit"
+      class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 w-full cursor-pointer sm:whitespace-nowrap"
+      (click)="retrocederPagina()"
+    >
+      Volver sin editar
+    </button>
+  </div>
+</form>

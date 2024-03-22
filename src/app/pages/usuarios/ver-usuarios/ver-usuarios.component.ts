@@ -7,8 +7,9 @@ import { AutenticacionService } from '../../../services/autenticacion/autenticac
 import { SignUpComponent } from '../../../components/sign-up/sign-up.component';
 import { PermisosDirective } from '../../../core/directives/permisos/permisos.directive';
 import { FormsModule } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { config } from '../../../../environments/configuracion/config';
+import { ROUTER_APP } from '../../../core/enum/router-app.enum';
 
 @Component({
   selector: 'app-ver-usuarios',
@@ -26,7 +27,8 @@ export class VerUsuariosComponent implements OnInit, OnDestroy {
 
   constructor(
     private usuarioService: UsuarioService, 
-    private autenticacionService: AutenticacionService ) {}
+    private autenticacionService: AutenticacionService,
+    private router: Router ) {}
 
   ngOnInit(): void {
     this.usuarioLogin = this.autenticacionService.usuario;
@@ -64,5 +66,13 @@ export class VerUsuariosComponent implements OnInit, OnDestroy {
       );
       console.log(resp);
     });
+  }
+
+  agregarUsuarios() {
+      this.router.navigateByUrl(`${ROUTER_APP.EDITAR_USUARIOS}/nuevo`);
+    }
+
+  editarUsuarios(id: string) {
+    this.router.navigateByUrl(`${ROUTER_APP.EDITAR_USUARIOS}/${id}`);
   }
 }
