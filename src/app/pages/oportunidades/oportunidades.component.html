@@ -52,8 +52,10 @@
       <td>
         <select
           class="rounded-lg text-sm px-1 py-1 mx-3 my-3"
+          [(ngModel)]="usuario.oportunidades"
           (change)="actualizarEstado(usuario)"
         >
+          <option [value]="">Selecciona</option>
           <option *ngFor="let oport of oportunidades" [value]="oport">
             {{ oport }}
           </option>

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { UsuarioService } from '../../services/usuario/usuario.service';
 import { UsuarioModel } from '../../core/models/usuario.model';
-import { UsuarioInterface } from '../../core/interfaces/usuario.interface';
+import { UsuarioInterface, crearUsuarioInterface } from '../../core/interfaces/usuario.interface';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -34,7 +34,7 @@ export class SignUpComponent {
     const  usuarioNuevo = this.usuarioForm.value;
 
     if (this.usuarioForm.valid) {
-      const data: UsuarioInterface = {
+      const data: crearUsuarioInterface = {
       nombre: usuarioNuevo.nombre || "",
       telefono: usuarioNuevo.telefono || "",
       email: usuarioNuevo.email || "",

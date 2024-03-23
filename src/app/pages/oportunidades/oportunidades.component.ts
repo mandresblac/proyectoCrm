@@ -6,11 +6,12 @@ import { UsuarioService } from '../../services/usuario/usuario.service';
 import { AutenticacionService } from '../../services/autenticacion/autenticacion.service';
 import Swal from 'sweetalert2';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-oportunidades',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './oportunidades.component.html',
   styleUrl: './oportunidades.component.css'
 })
@@ -38,6 +39,7 @@ ngOnInit(): void {
 
 
   actualizarEstado(usuario: UsuarioModel) {
+    console.log(usuario)
     this.usuarioService.actualizarUnUsuario(usuario).subscribe((resp: any) => {
       Swal.fire(
         'Actualizado',

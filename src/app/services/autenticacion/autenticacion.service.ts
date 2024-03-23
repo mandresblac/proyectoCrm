@@ -32,28 +32,31 @@ export class AutenticacionService {
         const {
           _id,
           nombre,
+          telefono,
           email,
           tipoDocumento,
           numeroDocumento,
-          login,
-          password,
-          rol,
-          estado,
-          createdAt
-        } = resp.usuario;
-
-        this.usuario = new UsuarioModel(_id,
-          nombre,
-          email,
-          tipoDocumento,
-          numeroDocumento,
-          login,
+          oportunidades,
           password,
           rol,
           estado,
           createdAt,
-          // Completar con telefono y direccion sin login igual que en el modelo
+          direccion
+        } = resp.usuario;
 
+        this.usuario = new UsuarioModel(
+          _id,
+          nombre,
+          telefono,
+          email,
+          tipoDocumento,
+          numeroDocumento,
+          oportunidades,
+          password,
+          rol,
+          estado,
+          createdAt,
+          direccion
           );
           localStorage.setItem('token', resp.token);
           return true;

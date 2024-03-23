@@ -1,47 +1,50 @@
-import { Component, ViewChild } from '@angular/core';
-import { ApexChart, ApexNonAxisChartSeries, ApexResponsive, ChartComponent, NgApexchartsModule } from 'ng-apexcharts';
+import { OPORTUNIDADES } from './../../../core/enum/oportunidades.enum';
+import { Component, Input, ViewChild } from '@angular/core';
+import { ApexChart, ApexNonAxisChartSeries, ApexResponsive, ChartComponent, NgApexchartsModule } from "ng-apexcharts";
 import { config } from '../../../../environments/configuracion/config';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+
+
 
 export type ChartOptions = {
-  series: ApexNonAxisChartSeries;
-  chart: ApexChart;
-  responsive: ApexResponsive[];
+  series: any;
+  chart: any;
+  responsive: any;
   labels: any;
 };
 
 @Component({
   selector: 'app-simple-pie',
   standalone: true,
-  imports: [FormsModule, ReactiveFormsModule, NgApexchartsModule, CommonModule],
+  imports: [NgApexchartsModule],
   templateUrl: './simple-pie.component.html',
   styleUrl: './simple-pie.component.css'
 })
 export class SimplePieComponent {
-  @ViewChild("chart", { static: false }) chart: ChartComponent;
-
+  
+  @ViewChild("chart") chart: ChartComponent;
+  public chartOptions: Partial<ChartOptions>;
 
   oportunidades = config.oportunidades;
-  chartOptions: ChartOptions; 
-  
+
+
+  @Input() data: number[] = [];
   constructor() {}
 
   ngOnInit(): void {
     console.log(this.oportunidades)
     this.chartOptions = {
-      series: [44, 55, 34, 43],
+      series: this.data,
       chart: {
         width: 380,
         type: "pie"
       },
-      labels: ["Perdida", "Ganada", "En proceso", "Cerrada"],
+      labels: [OPORTUNIDADES.PERDIDA, OPORTUNIDADES.GANADA, OPORTUNIDADES.EN_PROCESO, OPORTUNIDADES.CERRADA],
       responsive: [
         {
           breakpoint: 480,
           options: {
             chart: {
-              width: 200
+              width: 320
             },
             legend: {
               position: "bottom"
@@ -49,7 +52,7 @@ export class SimplePieComponent {
           }
         },
         {
-          breakpoint: 1600,
+          breakpoint: 1440,
           options: {
             chart: {
               width: 400

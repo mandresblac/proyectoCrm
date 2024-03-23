@@ -48,7 +48,7 @@ export class EditarUsuariosComponent implements OnInit {
 
 
   actualizarUsuario() {
-    const dataActualizada: UsuarioModel = {
+    const dataActualizada: UsuarioInterface = {
       _id: this.usuarioSeleccionado._id || "",
       nombre: this.usuarioForm.value.nombre || "",
       email: this.usuarioForm.value.email || "",
@@ -57,7 +57,7 @@ export class EditarUsuariosComponent implements OnInit {
       rol: this.usuarioForm.value.rol || "",
       telefono: this.usuarioForm.value.telefono || "",
       direccion: this.usuarioForm.value.direccion || "",
-      oportunidades: this.usuarioForm.value.rol || "" // correggir
+      oportunidades: this.usuarioForm.value.rol || "" // corregir
     };
 
     this.usuarioService.actualizarUnUsuario(dataActualizada).subscribe({
