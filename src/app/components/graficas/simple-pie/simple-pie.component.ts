@@ -31,7 +31,6 @@ export class SimplePieComponent {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.oportunidades)
     this.chartOptions = {
       series: this.data,
       chart: {

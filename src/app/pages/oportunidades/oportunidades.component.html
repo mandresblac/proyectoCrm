@@ -55,7 +55,7 @@
           [(ngModel)]="usuario.oportunidades"
           (change)="actualizarEstado(usuario)"
         >
-          <option [value]="">Selecciona</option>
+          <option [value]="" selected disabled>Selecciona</option>
           <option *ngFor="let oport of oportunidades" [value]="oport">
             {{ oport }}
           </option>

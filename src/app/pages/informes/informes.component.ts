@@ -31,7 +31,6 @@ export class InformesComponent implements OnInit{
   cargarUsuarios() {
     this.usuarioSuscription = this.usuarioService.getUsuarios().subscribe((resp: any) => {
       this.usuarios = resp.usuarios;
-      console.log("usuarios", this.usuarios);
       this.oportunidades();
     })
   };
@@ -50,6 +49,7 @@ export class InformesComponent implements OnInit{
     this.totalOportunidades.push(resultGanada.length);
     this.totalOportunidades.push(resultEnProceso.length);
     this.totalOportunidades.push(resultCerrada.length);
+    
     console.log("Total Oportunidades:",this.totalOportunidades);
     
   };
