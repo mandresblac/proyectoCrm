@@ -3,8 +3,6 @@ import { Component, Input, ViewChild } from '@angular/core';
 import { ApexChart, ApexNonAxisChartSeries, ApexResponsive, ChartComponent, NgApexchartsModule } from "ng-apexcharts";
 import { config } from '../../../../environments/configuracion/config';
 
-
-
 export type ChartOptions = {
   series: any;
   chart: any;

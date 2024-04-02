@@ -6,11 +6,12 @@ import { UsuarioService } from '../../services/usuario/usuario.service';
 import { UsuarioModel } from '../../core/models/usuario.model';
 import { OPORTUNIDADES } from '../../core/enum/oportunidades.enum';
 import { Subscription } from 'rxjs';
+import { ConexionesComponent } from '../../components/graficas/conexiones/conexiones.component';
 
 @Component({
   selector: 'app-informes',
   standalone: true,
-  imports: [SimplePieComponent],
+  imports: [SimplePieComponent, ConexionesComponent],
   templateUrl: './informes.component.html',
   styleUrl: './informes.component.css'
 })
@@ -36,8 +37,6 @@ export class InformesComponent implements OnInit{
   };
 
   oportunidades() {
-    
-    
     // Separamos los elementos del array original y los almacenamos en variables individuales 
     const resultPerdida = this.usuarios.filter(usuario => usuario.oportunidades === OPORTUNIDADES.PERDIDA);
     const resultGanada = this.usuarios.filter(usuario => usuario.oportunidades === OPORTUNIDADES.GANADA);
