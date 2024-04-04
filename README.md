@@ -50,7 +50,7 @@ ejemplo:
 
 **Otra opción:**
 <br />
-Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamente de click en **_Download ZIP_**, esto descargara yod el proyecto en un archivo comprimido en formato **_.zip_** que tendra que descomprimir.
+Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamente de click en **_"Download ZIP"_**, esto descargara el proyecto en su computadora en un archivo comprimido en formato **_".zip"_** que luego tendra que descomprimir.
 
 **4.**
 
