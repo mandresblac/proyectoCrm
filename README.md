@@ -1,6 +1,7 @@
 # Descripción del proyecto:
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Abril](https://img.shields.io/badge/Releasedate-EN%20DESAROLLO-green)
+![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
 
 Un programa informático para la gestión de la relación con los clientes o CRM (Customer Relationship Management) es una herramienta indispensable para que las empresas puedan situar al cliente en el centro de su negocio y tomar mejores decisiones al disponer de una información más profunda y precisa.
 <br />
