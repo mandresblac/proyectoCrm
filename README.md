@@ -100,12 +100,14 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Diccionario de datos
 
-| Left-Aligned | Center Aligned  | Right Aligned |
-| :----------- | :-------------: | ------------: |
-| Row 1        |    **Bold**     |        Cell 3 |
-| Row 2        |    _Italic_     |        Cell 6 |
-| Row 3        |   ~~Strike~~    |        Cell 9 |
-| Row 3        | [Link](dot.com) |        Cell 9 |
+| Diccionario de datos |
+| :------------------: | :-------------: | :-----------: |
+|     Left-Aligned     | Center Aligned  | Right Aligned |
+|     :-----------     | :-------------: | ------------: |
+|        Row 1         |    **Bold**     |    Cell 3     |
+|        Row 2         |    _Italic_     |    Cell 6     |
+|        Row 3         |   ~~Strike~~    |    Cell 9     |
+|        Row 3         | [Link](dot.com) |    Cell 9     |
 
 # Construcción y despliegue
 
