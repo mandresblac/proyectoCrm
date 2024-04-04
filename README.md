@@ -8,7 +8,7 @@
 
 4. [Estructura del proyecto](#Estructura-del-proyecto)
 
-5. [Tecnoligías Utilizadas](#Tecnologías-utilizadas)
+5. [Tecnologías, bibliotecas y frameworks utilizados en el proyecto](#Tecnologías-bibliotecas-y-frameworks-utilizados-en-el-proyecto)
 
 6. [API y Endpoints](#API-y-Endpoints)
 
@@ -80,13 +80,18 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Estructura del proyecto
 
-# Tecnologías utilizadas
+# Tecnologías bibliotecas y frameworks utilizados en el proyecto
 
 - [Html](https://developer.mozilla.org/es/docs/Web/HTML)
 - [Css](https://developer.mozilla.org/es/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/es/docs/Web/javascript)
+- [NodeJs](https://nodejs.org/en)
+- [Express](https://expressjs.com/)
 - [Angular 17](https://angular.dev/)
 - [Tailwind Css](https://tailwindcss.com/)
+- [Flowbite](https://flowbite.com/)
+- [Sweetalert2](https://sweetalert2.github.io/#input-types)
+- [Apexcharts.js](https://www.apexcharts.com/)
 
 # API y Endpoints
 
