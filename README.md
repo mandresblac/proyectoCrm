@@ -16,19 +16,16 @@ sus objetivos principales son:
   <br />
 
 - **Captar clientes potenciales**
-
   <br />
   Este CRM es una herramienta ideal para captar leads o contactos, es decir, usuarios que ya han mostrado un interés por los productos y servicios que ofrece una empresa.
   <br />
 
 - **Incrementar las ventas**
-
   <br />
   Este CRM permite disponer de información actualizada de los clientes facilitando el diseño y ejecución de las distintas estrategias de ventas de una empresa.
   <br />
 
 - **Incrementar la productividad y competitividad**
-
   <br />
   Es una herramienta que automatiza muchos de los procesos relacionados con la captación, organización y distribución de datos sobre los clientes. Estas tareas automatizadas evitan que los trabajadores de las distintas áreas de la empresa tengan que realizar tareas repetitivas y tediosas, liberando un tiempo que pueden dedicar a otros asuntos más importantes, mejorando la productividad y el nivel competitivo de la empresa.
   <br />
