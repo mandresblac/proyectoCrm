@@ -1,8 +1,8 @@
 # Indice
 
-\*[Descripción del proyecto](#Descripción-del-proyecto)
+- [Descripción del proyecto](#Descripción-del-proyecto)
 
-\*[Instalación](#Instalación)
+- [Instalación](#Instalación)
 
 # Descripción del proyecto:
 
