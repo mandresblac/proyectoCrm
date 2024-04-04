@@ -1,6 +1,16 @@
 # Descripción del proyecto:
 
-# ProyectoCmr
+Un programa informático para la gestión de la relación con los clientes o CRM (Customer Relationship Management) es una herramienta indispensable para que las empresas puedan situar al cliente en el centro de su negocio y tomar mejores decisiones al disponer de una información más profunda y precisa.
+
+<br />
+
+Su proposito peincipal esta relacionado clientes potenciales de un negocio, y responde a las necesidades actuales de las empresa para poder competir en un mercado globalizado y dependiente de tecnologías como internet, los teléfonos móviles y la computación en la nube.
+
+<br />
+
+sus objetivos principales son:
+
+## ProyectoCmr
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
 
