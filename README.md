@@ -100,6 +100,9 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Diccionario de datos
 
+| Diccionario de datos |
+| Campo | Tipo | Descripción |
+
 # Construcción y despliegue
 
 # Uso
