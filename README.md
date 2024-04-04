@@ -48,7 +48,7 @@ sus objetivos principales son:
    `git clone https://github.com/mandresblac/proyectoCrmFrontend.git`
    <br />
 
-   **Otra opción**
+   **Otra opción:**
    <br />
    Dar click en el boton de color azul **_code_** y en la parte inferior nuevamente de click en **_Download ZIP_**, esto descargara yod el proyecto en un archivo comprimido en formato **_.zip_** que tendra que descomprimir.
 
