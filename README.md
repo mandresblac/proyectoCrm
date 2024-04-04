@@ -36,23 +36,23 @@ sus objetivos principales son:
 
 # Instalación
 
-1. Dirijase al [repositorio del proyecto](https://github.com/mandresblac/proyectoCrmFrontend?tab=readme-ov-file) en Github.
+**1.** Dirijase al [repositorio del proyecto](https://github.com/mandresblac/proyectoCrmFrontend?tab=readme-ov-file) en Github.
 
-2. Si desea clonar el repositorio, es decir, descargarlo en su maquina local, de click en el boton de color azul **_code_**, se desplegara una ventana que en la parte superior de la pestaña debe estar en **_local_**, por defecto debe aparecer **_HTTPS_** subrayado en rojo, luego vera una dirección o URL, a la derecha de esa URL hay un boton para copiar en el portapapeles, de click en ese boton.
+**2.** Si desea clonar el repositorio, es decir, descargarlo en su maquina local, de click en el boton de color azul **_code_**, se desplegara una ventana que en la parte superior de la pestaña debe estar en **_local_**, por defecto debe aparecer **_HTTPS_** subrayado en rojo, luego vera una dirección o URL, a la derecha de esa URL hay un boton para copiar en el portapapeles, de click en ese boton.
 
-3. Abra una terminal en su computadora, ubiquese en la carpeta de su preferencia y corra el siguiente comando:
-   `git clone copia_URL_del_proyecto_en_GITHUB`.
-   <br />
-   ejemplo:
-   <br />
-   `git clone https://github.com/mandresblac/proyectoCrmFrontend.git`
-   <br />
+**3.** Abra una terminal en su computadora, ubiquese en la carpeta de su preferencia y corra el siguiente comando:
+`git clone copia_URL_del_proyecto_en_GITHUB`.
+<br />
+ejemplo:
+<br />
+`git clone https://github.com/mandresblac/proyectoCrmFrontend.git`
+<br />
 
-   **Otra opción:**
-   <br />
-   Dar click en el boton de color azul **_code_** y en la parte inferior nuevamente de click en **_Download ZIP_**, esto descargara yod el proyecto en un archivo comprimido en formato **_.zip_** que tendra que descomprimir.
+**Otra opción:**
+<br />
+Dar click en el boton de color azul **_code_** y en la parte inferior nuevamente de click en **_Download ZIP_**, esto descargara yod el proyecto en un archivo comprimido en formato **_.zip_** que tendra que descomprimir.
 
-4.
+**4.**
 
 # Configuración
 
