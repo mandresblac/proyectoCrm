@@ -82,7 +82,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Tecnologías utilizadas
 
-- **Html**
+- [**Html**](https://developer.mozilla.org/es/docs/Web/HTML)
 
 # API y Endpoints
 
