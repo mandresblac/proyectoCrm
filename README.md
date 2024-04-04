@@ -111,8 +111,18 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
     <tbody>
       <tr>
         <td rowspan=4 align="center">Nombre y apellido</td>
-        <td rowspan=2 align="center">String</td>
-        <td align="center">Nombre y apellido</td>
+        <td rowspan=2 align="center">string</td>
+        <td align="center">Nombre y apellido del usuario</td>
+      </tr>
+      <tr>
+        <td rowspan=4 align="center">Dirección</td>
+        <td rowspan=2 align="center">string</td>
+        <td align="center">Dirección del usuario</td>
+      </tr>
+      <tr>
+        <td rowspan=4 align="center">Telefono</td>
+        <td rowspan=2 align="center">number</td>
+        <td align="center">Número telefonico del usuario</td>
       </tr>
     </tbody>
 </table>
