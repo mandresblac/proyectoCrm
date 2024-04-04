@@ -116,9 +116,6 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
         <td align="center">Nombre y apellido</td>
       </tr>
     </tbody>
-        
-        
-    
 </table>
 
 # Construcción y despliegue
