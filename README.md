@@ -83,7 +83,9 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 # Tecnologías utilizadas
 
 - **<a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Html</a>**
+- **<a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Css</a>**
 - **<a href="https://developer.mozilla.org/es/docs/Web/javascript" target="_blank">Javascript</a>**
+- **<a href="https://angular.dev/" target="_blank">Angular 17</a>**
 
 # API y Endpoints
 
