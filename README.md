@@ -52,7 +52,7 @@ ejemplo:
 <br />
 Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamente de click en **_"Download ZIP"_**, esto descargara el proyecto en su computadora en un archivo comprimido en formato **_".zip"_** que luego tendra que descomprimir.
 
-**4.**
+**4.** Por ultimo acceda a la carpeta del proyecto con el comando `cd carpeta_proyecto` o desde el explorador de archivos de su sistema operativo de click sobre la carpeta del proyecto.
 
 # Configuración
 
