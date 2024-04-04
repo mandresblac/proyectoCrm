@@ -103,6 +103,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 <table>
     <thead>
         <tr> Diccionario de datos</tr>
+    </thead>
+    <thead>
         <tr>
             <th>Campo</th>
             <th>Tipo</th>
