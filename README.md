@@ -100,27 +100,19 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Diccionario de datos
 
-<table>
-    <thead>
-        <tr>
-            <td>Campo</td>
-            <td>Tipo</td>
-            <td>Descripción</td>
-        </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan=4 align="center">Nombre y apellido</td>
-        <td rowspan=2 align="center">string</td>
-        <td align="center">Nombre y apellido del usuario</td>
-      </tr>
-      <tr>
-        <td rowspan=4 align="center">Dirección</td>
-        <td rowspan=2 align="center">string</td>
-        <td align="center">Dirección del usuario</td>
-      </tr>
-    </tbody>
-</table>
+| Campo               | Tipo    | Descripción                         |
+| :------------------ | :------ | :---------------------------------- |
+| Nombre y apellido   | string  | Nombre y apellido del suario        |
+| Dirección           | string  | Dirección del usuario               |
+| telefono            | string  | Telefono del usuario                |
+| Email               | string  | Email del usuario                   |
+| Tipo de documento   | string  | Tipo de documento del suario        |
+| Número de documento | string  | Número de documento del suario      |
+| Password            | string  | Password del usuario                |
+| Oportunidades       | string  | Oportunidades del usuario           |
+| Rol                 | string  | Rol del usuario                     |
+| Estado              | Boolean | Estado del usuario                  |
+| CreatedAt           | Date    | Fecha en que se registra el usuario |
 
 # Construcción y despliegue
 
