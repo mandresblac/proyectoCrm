@@ -101,7 +101,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 # Diccionario de datos
 
 <table>
-    <caption>**Diccionario de datos**</caption>
+    <caption>Diccionario de datos</caption>
     <thead>
         <tr>
             <th>Campo</th>
