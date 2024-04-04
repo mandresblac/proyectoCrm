@@ -4,11 +4,13 @@ Un programa informático para la gestión de la relación con los clientes o CRM
 
 <br />
 
-Su proposito peincipal esta relacionado clientes potenciales de un negocio, y responde a las necesidades actuales de las empresa para poder competir en un mercado globalizado y dependiente de tecnologías como internet, los teléfonos móviles y la computación en la nube.
+El proposito principal de este proyecto esta directamente relacionado con los clientes potenciales de un negocio, y responde a las necesidades actuales de las empresas para poder competir en un mercado globalizado y dependiente de tecnologías como internet, los teléfonos móviles y la computación en la nube.
 
 <br />
 
 sus objetivos principales son:
+
+- **Centralizar toda la información sobre los clientes potenciales de un negocio**
 
 ## ProyectoCmr
 
