@@ -1,9 +1,10 @@
 # Descripción del proyecto:
 
-<br />
 Un programa informático para la gestión de la relación con los clientes o CRM (Customer Relationship Management) es una herramienta indispensable para que las empresas puedan situar al cliente en el centro de su negocio y tomar mejores decisiones al disponer de una información más profunda y precisa.
 <br />
+<br />
 El proposito principal de este proyecto esta directamente relacionado con los clientes potenciales de un negocio, y responde a las necesidades actuales de las empresas para poder competir en un mercado globalizado y dependiente de tecnologías como internet, los teléfonos móviles y la computación en la nube.
+<br />
 <br />
 sus objetivos principales son:
 <br />
