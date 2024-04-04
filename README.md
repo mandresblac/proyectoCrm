@@ -30,6 +30,10 @@ sus objetivos principales son:
   <br />
   Los gastos relacionados con la gestión de datos sobre los clientes se ven reducidos gracias a la automatización de procesos de este CRM, ya que permite llevar una gestión de la relación con los clientes óptima, haciendo mejor uso de los recursos materiales y humanos del negocio, lo que implica una reducción de los gastos asociados.
 
+## Instalación
+
+## Configuración
+
 ## ProyectoCmr
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
