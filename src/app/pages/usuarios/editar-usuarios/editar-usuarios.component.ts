@@ -3,10 +3,11 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { UsuarioService } from '../../../services/usuario/usuario.service';
 import { UsuarioModel } from '../../../core/models/usuario.model';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import Swal from 'sweetalert2';
+
 import { UsuarioInterface } from '../../../core/interfaces/usuario.interface';
 import { config } from '../../../../environments/configuracion/config';
 import { PermisosDirective } from '../../../core/directives/permisos/permisos.directive';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-editar-usuarios',
