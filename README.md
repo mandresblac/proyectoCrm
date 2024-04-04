@@ -7,6 +7,7 @@ El proposito principal de este proyecto esta directamente relacionado con los cl
 sus objetivos principales son:
 
 - **Centralizar toda la información sobre los clientes potenciales de un negocio**
+
   Capturar, organizar y distribuir toda la información que maneja la empresa sobre sus clientes. Centralizando toda la información en una base de datos única para poder disponer de información actualizada y en tiempo real de los clientes.
 
 - **Captar clientes potenciales**
