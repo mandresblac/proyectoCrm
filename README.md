@@ -76,6 +76,9 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Configuración
 
+- Versión 1.42.0 de MongoDB Compass
+- Versión 6.0 de MongoDB Atlas
+
 # Estructura del proyecto
 
 # Tecnologías bibliotecas y frameworks utilizados en el proyecto
