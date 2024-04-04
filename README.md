@@ -10,15 +10,13 @@
 
 5. [Tecnologías, bibliotecas y frameworks utilizados en el proyecto](#Tecnologías-bibliotecas-y-frameworks-utilizados-en-el-proyecto)
 
-6. [API y Endpoints](#API-y-Endpoints)
+6. [Diccionario de datos](#Diccionario-de-datos)
 
-7. [Diccionario de datos](#Diccionario-de-datos)
+7. [Construcción y despliegue](#Construcción-y-despliegue)
 
-8. [Construcción y despliegue](#Construcción-y-despliegue)
+8. [Uso](#Uso)
 
-9. [Uso](#Uso)
-
-10. [Contacto](#Contacto)
+9. [Contacto](#Contacto)
 
 # Descripción del proyecto:
 
@@ -95,8 +93,6 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 - [Flowbite](https://flowbite.com/)
 - [Sweetalert2](https://sweetalert2.github.io/#input-types)
 - [Apexcharts.js](https://www.apexcharts.com/)
-
-# API y Endpoints
 
 # Diccionario de datos
 
