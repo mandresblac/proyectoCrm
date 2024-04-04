@@ -1,8 +1,24 @@
 # Indice
 
-- [Descripción del proyecto](#Descripción-del-proyecto)
+1. [Descripción del proyecto](#Descripción-del-proyecto)
 
-- [Instalación](#Instalación)
+2. [Instalación](#Instalación)
+
+3. [Configuración](#Configuración)
+
+4. [Estructura del proyecto](#Estructura-del-proyecto)
+
+5. [Tecnoligías Utilizadas](#Tecnologías-utilizadas)
+
+6. [API y Endpoints](#API-y-Endpoints)
+
+7. [Diccionario de datos](#Diccionario-de-datos)
+
+8. [Construcción y despliegue](#Construcción-y-despliegue)
+
+9. [Uso](#Uso)
+
+10. [Contacto](#Contacto)
 
 # Descripción del proyecto:
 
@@ -63,3 +79,15 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 # Configuración
 
 # Estructura del proyecto
+
+# Tecnologías utilizadas
+
+# API y Endpoints
+
+# Diccionario de datos
+
+# Construcción y despliegue
+
+# Uso
+
+# Contacto
