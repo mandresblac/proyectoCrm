@@ -103,9 +103,9 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 <table>
     <thead>
         <tr>
-            <th>Campo</th>
-            <th>Tipo</th>
-            <th>Descripción</th>
+            <td>Campo</td>
+            <td>Tipo</td>
+            <td>Descripción</td>
         </tr>
     </thead>
     <tbody>
