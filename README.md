@@ -82,6 +82,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Tecnologías utilizadas
 
+- **Html**
+
 # API y Endpoints
 
 # Diccionario de datos
