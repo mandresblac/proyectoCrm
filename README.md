@@ -100,19 +100,19 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Diccionario de datos
 
-| CAMPO               | TIPO    | DESCRIPCIÓN                         |
-| :------------------ | :------ | :---------------------------------- |
-| Nombre y apellido   | string  | Nombre y apellido del suario        |
-| Dirección           | string  | Dirección del usuario               |
-| telefono            | string  | Telefono del usuario                |
-| Email               | string  | Email del usuario                   |
-| Tipo de documento   | string  | Tipo de documento del suario        |
-| Número de documento | string  | Número de documento del suario      |
-| Password            | string  | Password del usuario                |
-| Oportunidades       | string  | Oportunidades del usuario           |
-| Rol                 | string  | Rol del usuario                     |
-| Estado              | Boolean | Estado del usuario                  |
-| CreatedAt           | Date    | Fecha en que se registra el usuario |
+|        CAMPO        |  TIPO   |             DESCRIPCIÓN             |
+| :-----------------: | :-----: | :---------------------------------: |
+|  Nombre y apellido  | string  |    Nombre y apellido del suario     |
+|      Dirección      | string  |        Dirección del usuario        |
+|      telefono       | string  |        Telefono del usuario         |
+|        Email        | string  |          Email del usuario          |
+|  Tipo de documento  | string  |    Tipo de documento del suario     |
+| Número de documento | string  |   Número de documento del suario    |
+|      Password       | string  |        Password del usuario         |
+|    Oportunidades    | string  |      Oportunidades del usuario      |
+|         Rol         | string  |           Rol del usuario           |
+|       Estado        | Boolean |         Estado del usuario          |
+|      CreatedAt      |  Date   | Fecha en que se registra el usuario |
 
 # Construcción y despliegue
 
