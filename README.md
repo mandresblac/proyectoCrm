@@ -1,30 +1,36 @@
 # Descripción del proyecto:
 
+<br />
 Un programa informático para la gestión de la relación con los clientes o CRM (Customer Relationship Management) es una herramienta indispensable para que las empresas puedan situar al cliente en el centro de su negocio y tomar mejores decisiones al disponer de una información más profunda y precisa.
-
+<br />
 El proposito principal de este proyecto esta directamente relacionado con los clientes potenciales de un negocio, y responde a las necesidades actuales de las empresas para poder competir en un mercado globalizado y dependiente de tecnologías como internet, los teléfonos móviles y la computación en la nube.
-
+<br />
 sus objetivos principales son:
+<br />
 
 - **Centralizar toda la información sobre los clientes potenciales de un negocio**
 
   Capturar, organizar y distribuir toda la información que maneja la empresa sobre sus clientes. Centralizando toda la información en una base de datos única para poder disponer de información actualizada y en tiempo real de los clientes.
+  <br />
 
 - **Captar clientes potenciales**
-
+  <br />
   Este CRM es una herramienta ideal para captar leads o contactos, es decir, usuarios que ya han mostrado un interés por los productos y servicios que ofrece una empresa.
+  <br />
 
 - **Incrementar las ventas**
-
   Este CRM permite disponer de información actualizada de los clientes facilitando el diseño y ejecución de las distintas estrategias de ventas de una empresa.
+  <br />
 
 - **Incrementar la productividad y competitividad**
-
+  <br />
   Es una herramienta que automatiza muchos de los procesos relacionados con la captación, organización y distribución de datos sobre los clientes. Estas tareas automatizadas evitan que los trabajadores de las distintas áreas de la empresa tengan que realizar tareas repetitivas y tediosas, liberando un tiempo que pueden dedicar a otros asuntos más importantes, mejorando la productividad y el nivel competitivo de la empresa.
+  <br />
 
 - **Reducir costos**
-
+  <br />
   Los gastos relacionados con la gestión de datos sobre los clientes se ven reducidos gracias a la automatización de procesos de este CRM, ya que permite llevar una gestión de la relación con los clientes óptima, haciendo mejor uso de los recursos materiales y humanos del negocio, lo que implica una reducción de los gastos asociados.
+  <br />
 
 ## Instalación
 
