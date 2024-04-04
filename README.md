@@ -100,7 +100,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Diccionario de datos
 
-| Campo               | Tipo    | Descripción                         |
+| CAMPO               | TIPO    | DESCRIPCIÓN                         |
 | :------------------ | :------ | :---------------------------------- |
 | Nombre y apellido   | string  | Nombre y apellido del suario        |
 | Dirección           | string  | Dirección del usuario               |
