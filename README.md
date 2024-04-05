@@ -16,9 +16,6 @@
 
 8. [Uso de la aplicación](#Uso-de-la-aplicación)
 
-- [Como ingresar a la aplicación.](#Como-ingresar-a-la-aplicación)
-- [Como Editar la información de un usuario.](Como-Editar-la-información-de-un-usuario)
-
 9. [Contacto](#Contacto)
 
 # Descripción del proyecto:
