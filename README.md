@@ -153,6 +153,38 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 ### - **Construcción:**
 
+**1.** Debemos tener instalado previamente Nodejs, luego instalamos Angular con el comando `npm install angular cli`.
+
+**2.** Instalamos Typescript con el comando `npm i typescript -g` y lo configuramos para el proyecto con el comando `tsc --init`.
+
+**3.** instalamos Nodemon con el comando `npm i nodemon -g`.
+
+**4.** Para crear el proyecto tecleamos en la terminal el comando `ng new nombre_proyecto`.
+
+**5.** inicializamos el proyecto de Node con el comando `npm init -y`
+
+**6.** Instalamos los siguientes paquetes:
+`npm i express cors dotenv multer mongoose`
+`npm i express-validator`
+
+**7.** Instalamos paquetes de tipado:
+`npm i @types/express @types/cors @types/dotenv @types/multer @types/mongoose  -D`
+
+**8.** Creamos la siguiente estructura de carpetas:
+
+- controllers
+- models
+- routes
+- app.ts
+
+**9.** Creamos cuenta gratuita en [Mongo Atlas](https://www.mongodb.com/atlas/database).
+
+**10.** Creamos el archivo .env, donde se colocarán todas las variables de entorno.
+
+**11.** Creamos las carpetas **src/config**, **src/utils**, **src/assets**, **src/middlewares**
+
+**12** Configuramos el puerto y conexiones a la base de datos.
+
 ### - **Despliegue:**
 
 Tras tener listo el código en el repositorio correspondiente, creamos una cuenta gratuita en un proveedor de alojamiento en la nube como **_Render_** o **_Netlify_** que proporcionan servicios de backend sin servidor (serverless) para sitios web, esto con el fin de poder tener acceso a sus herramientas y hacer un despliegue continuo de nuestro proyecto. En nuestro caso escogimos **_Netlify_** para el Frontend y **_Render_** para el Backend, existen distintos planes de pago con distintas características, escogemos el gratuito, ya que se adapta de manera holgada al objetivo del curso y del proyecto.
