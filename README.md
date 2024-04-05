@@ -137,25 +137,25 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 - **Como ingresar a la aplicación:**
 
-1. En su navegador preferido ingrese la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/).
-2. En la parte derecha de la pantalla hay un formulario para Registrarse en la aplicación, ingrese todos los datos solicitados.
-3. Luego de registrarse vaya a la parte superior derecha de la pantalla y de click en el boton "**_Iniciar Sesión_**".
-4. Ingrese email, contraseña y de click en el boton "**_Iniciar Sesión_**", acontinuación aparece una nueva ventana modal de dar click en "**_OK_**".
+**1.** En su navegador preferido ingrese la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/).
+**2.** En la parte derecha de la pantalla hay un formulario para Registrarse en la aplicación, ingrese todos los datos solicitados.
+**3.** Luego de registrarse vaya a la parte superior derecha de la pantalla y de click en el boton "**_Iniciar Sesión_**".
+**4.** Ingrese email, contraseña y de click en el boton "**_Iniciar Sesión_**", acontinuación aparece una nueva ventana modal de dar click en "**_OK_**".
 
 - **Como Editar la información de un usuario:**
 
-  1. En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
-  2. Si desea editar la información de algun usuario vaya a la parte derecha de la pantalla y de click en el boton de color verde con el icono de un lapiz.
+**1.** En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
+**2.** Si desea editar la información de algun usuario vaya a la parte derecha de la pantalla y de click en el boton de color verde con el icono de un lapiz.
 
-  **_Nota:_** Si desiste de su intencion de modificar la información de algun usuario de click en el boton "**_Volver sin editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" sin modificar la información de algun usuario.
+**_Nota:_** Si desiste de su intencion de modificar la información de algun usuario de click en el boton "**_Volver sin editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" sin modificar la información de algun usuario.
 
-  3. Modifique los datos que quiera y luego de click en el boton de "**_Editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" donde podra verificar que los datos han sido modificados.
+**3.** Modifique los datos que quiera y luego de click en el boton de "**_Editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" donde podra verificar que los datos han sido modificados.
 
 - **Como Eliminar un usuario:**
 
-  1. En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
-  2. Si desea eliminar algun usuario, vaya a la parte derecha de la pantalla y de click en el boton de color rojo con el icono de un bote de basura.
-  3. Aparecera una ventana modal confirmando la eliminación del usuario, de clik en "**_OK_**".
+**1.** En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
+**2.** Si desea eliminar algun usuario, vaya a la parte derecha de la pantalla y de click en el boton de color rojo con el icono de un bote de basura.
+**3.** Aparecera una ventana modal confirmando la eliminación del usuario, de clik en "**_OK_**".
 
 [Ir al indice](#Indice)
 
