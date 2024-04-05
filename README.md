@@ -86,6 +86,13 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
   - Usuario: Usuario_solo_lectura
   - Password: m8SuqnzJKDAhB4nn
   - link de conexión de Mongo: mongodb+srv://<username>:<password>@cluster0.tbv1rap.mongodb.net/
+- Variables de entorno:
+  |DB_CONECTION|mongodb+srv://mandresblac:CUTji3bhmiw1YDKb@cluster0.tbv1rap.mongodb.net/proyectoCrm|
+  |:----|:----|
+  |PORT|3000|
+  |JWT_SECRET|pal$37\*78/|
+  |JWT_SECRET_PASS|&/80393944\*\*|
+  |EXPIRES_IN|12h|
 
 [Ir al indice](#Indice)
 
