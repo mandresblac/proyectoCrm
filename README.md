@@ -99,6 +99,10 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Estructura del proyecto
 
+### - **Estructura del Frontend**
+
+### - **Estructura del Backtend**
+
 [Ir al indice](#Indice)
 
 # Tecnologías bibliotecas y frameworks utilizados en el proyecto
