@@ -54,7 +54,7 @@ sus objetivos principales son:
   Los gastos relacionados con la gestión de datos sobre los clientes se ven reducidos gracias a la automatización de procesos de este CRM, ya que permite llevar una gestión de la relación con los clientes óptima, haciendo mejor uso de los recursos materiales y humanos del negocio, lo que implica una reducción de los gastos asociados.
   <br />
 
-  [Ir al indice](#Indice)
+[Ir al indice](#Indice)
 
 # Instalación
 
@@ -76,6 +76,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 **4.** Por ultimo acceda a la carpeta del proyecto con el comando `cd carpeta_proyecto` o desde el explorador de archivos de su sistema operativo de click sobre la carpeta del proyecto.
 
+[Ir al indice](#Indice)
+
 # Configuración
 
 - Versión 1.42.0 de MongoDB Compass
@@ -85,7 +87,11 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
   - Password: m8SuqnzJKDAhB4nn
   - link de conexión de Mongo: mongodb+srv://<username>:<password>@cluster0.tbv1rap.mongodb.net/
 
+[Ir al indice](#Indice)
+
 # Estructura del proyecto
+
+[Ir al indice](#Indice)
 
 # Tecnologías bibliotecas y frameworks utilizados en el proyecto
 
@@ -103,6 +109,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 - [Sweetalert2](https://sweetalert2.github.io/#input-types)
 - [Apexcharts.js](https://www.apexcharts.com/)
 
+[Ir al indice](#Indice)
+
 # Diccionario de datos
 
 | CAMPO               | TIPO    | DESCRIPCIÓN                         |
@@ -119,8 +127,16 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 | Estado              | Boolean | Estado del usuario                  |
 | CreatedAt           | Date    | Fecha en que se registra el usuario |
 
+[Ir al indice](#Indice)
+
 # Construcción y despliegue
+
+[Ir al indice](#Indice)
 
 # Uso
 
+[Ir al indice](#Indice)
+
 # Contacto
+
+[Ir al indice](#Indice)
