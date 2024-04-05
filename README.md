@@ -76,7 +76,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 **4.** Acceda a la carpeta del proyecto con el comando `cd carpeta_proyecto` o desde el explorador de archivos de su sistema operativo de click sobre la carpeta del proyecto.
 
-**5** Desde la terminal, ubicado en la carpeta raiz del proyecto, ejecute el comando `npm i` para instalar todas las dependencias que estan refenciadas en el archivo "**_package.json_**".
+**5.** Desde la terminal, ubicado en la carpeta raiz del proyecto, ejecute el comando `npm i` para instalar todas las dependencias que estan refenciadas en el archivo "**_package.json_**".
 
 **Nota:** Lo anterior creara una carpeta llamada "**_*node_modules*_**" donde estan todas las dependencias.
 
