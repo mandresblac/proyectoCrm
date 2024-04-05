@@ -157,6 +157,12 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 2. Si desea eliminar algun usuario, vaya a la parte derecha de la pantalla y de click en el boton de color rojo con el icono de un bote de basura.
 3. Aparecera una ventana modal confirmando la eliminación del usuario, de clik en "**_OK_**".
 
+- **Como modificar las oportunidades de un negocio:**
+
+1. En la parte superior de la pantalla de click en "**_Oportunidades_**".
+2. En la parte derecha de la pantalla en la casilla de "**_OPORTUNIDADES_**" de click en el recuadro vacio y selecione la oportunidad, que puede ser perdida, ganada, en proceso o cerrada.
+3. Aparecera una ventana modal confirmando que se actualizo la oportunidad del usuario, de clik en "**_OK_**".
+
 [Ir al indice](#Indice)
 
 # Contacto
