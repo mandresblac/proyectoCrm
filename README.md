@@ -151,6 +151,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Construcción y despliegue
 
+### - **Construcción:**
+
 ### - **Despliegue:**
 
 Tras tener listo el código en el repositorio correspondiente, creamos una cuenta gratuita en un proveedor de alojamiento en la nube como **_Render_** o **_Netlify_** que proporcionan servicios de backend sin servidor (serverless) para sitios web, esto con el fin de poder tener acceso a sus herramientas y hacer un despliegue continuo de nuestro proyecto. En nuestro caso escogimos **_Netlify_** para el Frontend y **_Render_** para el Backend, existen distintos planes de pago con distintas características, escogemos el gratuito, ya que se adapta de manera holgada al objetivo del curso y del proyecto.
