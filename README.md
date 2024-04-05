@@ -155,11 +155,11 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 Tras tener listo el código en el repositorio correspondiente, creamos una cuenta gratuita en un proveedor de alojamiento en la nube como **_Render_** o **_Netlify_** que proporcionan servicios de backend sin servidor (serverless) para sitios web, esto con el fin de poder tener acceso a sus herramientas y hacer un despliegue continuo de nuestro proyecto. En nuestro caso escogimos **_Netlify_** para el Frontend y **_Render_** para el Backend, existen distintos planes de pago con distintas características, escogemos el gratuito, ya que se adapta de manera holgada al objetivo del curso y del proyecto.
 
-Siguiendo con nuestro despliegue, crear la cuenta es tan fácil como registrarnos con nuestra cuenta de GitHub, GitLab, Bitbucket o con nuestro correo. Debemos dar permisos a Netlify para acceder a nuestra cuenta GitHub e introducir el nombre de usuario y el tipo de proyecto que se va a desplegar: un CMR.
+Siguiendo con nuestro despliegue, crear la cuenta es tan fácil como registrarnos con nuestra cuenta de **_GitHub_**, **_GitLab_**, **_Bitbucket_** o con nuestro correo. Debemos dar permisos a Netlify para acceder a nuestra cuenta **_GitHub_** e introducir el nombre de usuario y el tipo de proyecto que se va a desplegar: un CMR.
 
 A continuación, ya podemos acceder al dashboard.
 
-Ahora hay que indicar a **_Netlify_** el contenido de nuestro proyecto web. Para ello tenemos dos opciones: indicar el repositorio de GitHub donde tenemos el código de nuestro proyecto, o simplemente arrastrar la carpeta que representa al proyecto. En nuestro caso, vamos a escoger el repositorio que contiene el proyecto Angular que hemos creado.
+Ahora hay que indicar a **_Netlify_** el contenido de nuestro proyecto web. Para ello tenemos dos opciones: indicar el repositorio de **_GitHub_** donde tenemos el código de nuestro proyecto, o simplemente arrastrar la carpeta que representa al proyecto. En nuestro caso, vamos a escoger el repositorio que contiene el proyecto Angular que hemos creado.
 
 Solamente queda configurar los parámetros del deploy. Hay que indicar la rama del proyecto que se va a desplegar y el comando que va a hacer que se compile la aplicación. En nuestro caso la orden `ng build` es la orden común en Angular para compilar el proyecto. El directorio dist el que contiene por defecto todos los archivos que el navegador va a necesitar cuando el proyecto ya esté desplegado en producción. Dependiendo del framework será una orden u otra. También existe la opción de definir variables de entorno ya sea mediante el build command o mediante un archivo de configuración donde se gestionen todas.
 
