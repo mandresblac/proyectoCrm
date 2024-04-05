@@ -135,7 +135,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Uso de la aplicación
 
-- **Como ingresar a la aplicación:**
+### - **Como ingresar a la aplicación:**
 
 1. En su navegador preferido ingrese la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/).
 2. En la parte derecha de la pantalla hay un formulario para Registrarse en la aplicación, ingrese todos los datos solicitados.
