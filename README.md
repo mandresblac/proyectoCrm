@@ -135,14 +135,20 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Uso de la aplicación
 
-#### - **Como ingresar a la aplicación:**
+### - **Como ingresar a la aplicación:**
 
 1. En su navegador preferido ingrese la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/).
 2. En la parte derecha de la pantalla hay un formulario para Registrarse en la aplicación, ingrese todos los datos solicitados.
 3. Luego de registrarse vaya a la parte superior derecha de la pantalla y de click en el boton "**_Iniciar Sesión_**".
 4. Ingrese email, contraseña y de click en el boton "**_Iniciar Sesión_**", acontinuación aparece una nueva ventana modal de dar click en "**_OK_**".
 
-- **Como Editar la información de un usuario:**
+### - **Como registrar un usuario en la aplicación:**
+
+1. En la parte derecha de la pantalla de inicio hay un formulario de registro, ingrese los datos solicitados.
+2. De click en el boton "**_Registrarse_**
+3. Aparecera una ventana modal confirmando que el usuario se ha registrado satisfactoriamente.
+
+### - **Como Editar la información de un usuario:**
 
 1. En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
 2. Si desea editar la información de algun usuario vaya a la parte derecha de la pantalla y de click en el boton de color verde con el icono de un lapiz.
@@ -151,17 +157,27 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 3. Modifique los datos que quiera y luego de click en el boton de "**_Editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" donde podra verificar que los datos han sido modificados.
 
-- **Como Eliminar un usuario:**
+### - **Como Eliminar un usuario:**
 
 1. En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
 2. Si desea eliminar algun usuario, vaya a la parte derecha de la pantalla y de click en el boton de color rojo con el icono de un bote de basura.
 3. Aparecera una ventana modal confirmando la eliminación del usuario, de clik en "**_OK_**".
 
-- **Como modificar las oportunidades de un negocio:**
+### - **Como modificar las oportunidades de negocio de un usuario:**
 
 1. En la parte superior de la pantalla de click en "**_Oportunidades_**".
 2. En la parte derecha de la pantalla en la casilla de "**_OPORTUNIDADES_**" de click en el recuadro vacio y selecione la oportunidad, que puede ser perdida, ganada, en proceso o cerrada.
 3. Aparecera una ventana modal confirmando que se actualizo la oportunidad del usuario, de clik en "**_OK_**".
+
+### - **Como ver informes con graficas:**
+
+1. En la parte superior derecha de la pantalla de clik en el boton "**_Informes_**"
+2. Se vizualizaran las graficas y estadisticas de todos los usuarios de la aplicación.
+
+### - **Como salir de la aplicación:**
+
+1. En la parte superior derecha de la pantalla de clik en el boton "**_Cerrar Sesión_**"
+2. Al salir de la aplicación sera redirigido a la pantalla de inicio donde se encuentra el formulario de registro.
 
 [Ir al indice](#Indice)
 
