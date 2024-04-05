@@ -101,6 +101,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 ### - **Estructura del Frontend**
 
+![Estructura del Frontend](./src/assets/img/fontend.png)
+
 ### - **Estructura del Backtend**
 
 [Ir al indice](#Indice)
