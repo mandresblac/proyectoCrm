@@ -14,7 +14,7 @@
 
 7. [Construcción y despliegue](#Construcción-y-despliegue)
 
-8. [Uso](#Uso)
+8. [Uso de la aplicación](#Uso-de-la-aplicación)
 
 9. [Contacto](#Contacto)
 
@@ -137,10 +137,10 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 - **Como ingresar a la aplicación:**
 
-  1. En su navegador preferido ingrese la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/).
-  2. En la parte derecha de la pantalla hay un formulario para Registrarse en la aplicación, ingrese todos los datos solicitados.
-  3. Luego de registrarse vaya a la parte superior derecha de la pantalla y de click en el boton "**_Iniciar Sesión_**".
-  4. Ingrese email, contraseña y de click en el boton "**_Iniciar Sesión_**", acontinuación aparece una nueva ventana modal de dar click en "**_OK_**".
+1. En su navegador preferido ingrese la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/).
+2. En la parte derecha de la pantalla hay un formulario para Registrarse en la aplicación, ingrese todos los datos solicitados.
+3. Luego de registrarse vaya a la parte superior derecha de la pantalla y de click en el boton "**_Iniciar Sesión_**".
+4. Ingrese email, contraseña y de click en el boton "**_Iniciar Sesión_**", acontinuación aparece una nueva ventana modal de dar click en "**_OK_**".
 
 - **Como Editar la información de un usuario:**
 
