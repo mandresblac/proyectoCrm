@@ -135,6 +135,9 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Uso
 
+1. En tu navegador preferido ingresa la siguiente [url](https://merry-moonbeam-35c33d.netlify.app/)
+2.
+
 [Ir al indice](#Indice)
 
 # Contacto
