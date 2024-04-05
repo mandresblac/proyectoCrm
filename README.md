@@ -54,6 +54,8 @@ sus objetivos principales son:
   Los gastos relacionados con la gestión de datos sobre los clientes se ven reducidos gracias a la automatización de procesos de este CRM, ya que permite llevar una gestión de la relación con los clientes óptima, haciendo mejor uso de los recursos materiales y humanos del negocio, lo que implica una reducción de los gastos asociados.
   <br />
 
+  [Ir al indice](#Indice)
+
 # Instalación
 
 **1.** Dirijase al [repositorio del proyecto](https://github.com/mandresblac/proyectoCrmFrontend?tab=readme-ov-file) en Github.
