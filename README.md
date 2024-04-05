@@ -74,7 +74,7 @@ ejemplo:
 <br />
 Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamente de click en **_"Download ZIP"_**, esto descargara el proyecto en su computadora en un archivo comprimido en formato **_".zip"_** que luego tendra que descomprimir.
 
-**4.** Ejecute el comando `npm i` para instalar todas las dependencias del proyecto que estan refenciadas en el archivo "**_package.json_**"
+**4.** Ejecute el comando `npm i` para instalar todas las dependencias del proyecto que estan refenciadas en el archivo "**_package.json_**".
 
 **Nota:** Lo anterior creara una carpeta llamada "**_*node_modules*_**" donde estan todas las dependencias.
 
