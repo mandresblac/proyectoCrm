@@ -139,4 +139,12 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Contacto
 
+Para comunicarse con el equipo de desarrollo o mantenimiento del proyecto comunicate al siguiente correo electronico ***cmr@gmail.com***.
+
+- Links del Proyecto:
+  - Link del Proyecto [FrontEnd](https://merry-moonbeam-35c33d.netlify.app) Online.
+  - Link del Proyecto [BackEnd](https://proyectocrmbackend.onrender.com) Online.
+  - Link del Proyecto [Frontend](https://github.com/mandresblac/proyectoCrmFrontend) en GitHub.
+  - Link del Proyecto [Backend](https://github.com/mandresblac/ProyectoCrmBackend) en GitHub.
+
 [Ir al indice](#Indice)
