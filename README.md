@@ -1,21 +1,13 @@
 # Indice
 
 1. [Descripción del proyecto](#Descripción-del-proyecto)
-
 2. [Instalación](#Instalación)
-
 3. [Configuración](#Configuración)
-
 4. [Estructura del proyecto](#Estructura-del-proyecto)
-
 5. [Tecnologías, bibliotecas y frameworks utilizados en el proyecto](#Tecnologías-bibliotecas-y-frameworks-utilizados-en-el-proyecto)
-
 6. [Diccionario de datos](#Diccionario-de-datos)
-
 7. [Construcción y despliegue](#Construcción-y-despliegue)
-
 8. [Uso de la aplicación](#Uso-de-la-aplicación)
-
 9. [Contacto](#Contacto)
 
 # Descripción del proyecto:
