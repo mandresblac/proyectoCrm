@@ -141,6 +141,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 4. Ingrese email, contraseña y de click en el boton "**_Iniciar Sesión_**", acontinuación aparece una nueva ventana modal de dar click en "**_OK_**".
 5. En la pestaña "**_Usuarios_**" puede ver una tabla con todos los usuarios registrados en la aplicación.
 6. Si desea editar la información de algun usuario vaya a la parte derecha de la pantalla y de click en el boton de color verde con el icono de un lapiz.
+
    "**_Nota:_**" Si desiste de su intencion de modificar la información de algun usuario de click en el boton "**_Volver sin editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" sin modificar la información de algun usuario.
 
 7. Modifique los datos que quiera y luego de click en el boton de "**_Editar_**", esto lo redirigira a la pantalla de "**_Usuarios_**" donde podra verificar que los datos han sido modificados.
