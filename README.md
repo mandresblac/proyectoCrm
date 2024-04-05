@@ -16,6 +16,8 @@
 
 8. [Uso de la aplicación](#Uso-de-la-aplicación)
 
+- [Como ingresar a la aplicación](#Como-ingresar-a-la-aplicación)
+
 9. [Contacto](#Contacto)
 
 # Descripción del proyecto:
