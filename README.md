@@ -181,7 +181,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 **10.** Creamos el archivo .env, donde se colocarán todas las variables de entorno.
 
-**11.** Creamos las carpetas **src/config**, **src/utils**, **src/assets**, **src/middlewares**
+**11.** Creamos las carpetas **src/config**, **src/utils**, **src/assets**, **src/middlewares**.
 
 **12** Configuramos el puerto y conexiones a la base de datos.
 
