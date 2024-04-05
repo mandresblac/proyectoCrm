@@ -163,6 +163,14 @@ Ahora hay que indicar a Netlify el contenido de nuestro proyecto web. Para ello 
 
 Solamente queda configurar los parámetros del deploy. Hay que indicar la rama del proyecto que se va a desplegar y el comando que va a hacer que se compile la aplicación. En nuestro caso la orden `ng build` es la orden común en Angular para compilar el proyecto. El directorio dist el que contiene por defecto todos los archivos que el navegador va a necesitar cuando el proyecto ya esté desplegado en producción. Dependiendo del framework será una orden u otra. También existe la opción de definir variables de entorno ya sea mediante el build command o mediante un archivo de configuración donde se gestionen todas.
 
+Una vez esté todo el deploy configurado y hayamos pulsado la opción de <<Deploy site>>, si volvemos al dashboard nos encontraremos que el proyecto está en proceso de desplegarse en el dominio provisto por Netlify.
+
+Y a continuación, en muy poco tiempo, ya tenemos nuestro proyecto web desplegado correctamente.
+
+Si pulsamos en el enlace, podemos ver el contenido de nuestra web.
+
+Tras esto, los siguientes pasos que sugiere Netlify son configurar nuestro propio dominio web y securizar el mismo con HTTPS.
+
 [Ir al indice](#Indice)
 
 # Uso de la aplicación
