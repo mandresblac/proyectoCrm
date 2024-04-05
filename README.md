@@ -203,7 +203,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Contacto
 
-Para comunicarse con el equipo de desarrollo o mantenimiento del proyecto comunicate al siguiente correo electronico ***cmr@gmail.com***.
+Para comunicarse con el equipo de desarrollo y mantenimiento del proyecto comunicate a través del correo electronico ***cmr@gmail.com***.
 
 - Links del Proyecto:
   - Link del Proyecto [FrontEnd](https://merry-moonbeam-35c33d.netlify.app) Online.
