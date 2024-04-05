@@ -79,6 +79,12 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 - Versión 1.42.0 de MongoDB Compass
 - Versión 6.0 de MongoDB Atlas
 
+## Conexion a la base de datos de MongoDB
+
+- Usuario: Usuario_solo_lectura
+- Password: m8SuqnzJKDAhB4nn
+- link de conexión de Mongo: mongodb+srv://<username>:<password>@cluster0.tbv1rap.mongodb.net/
+
 # Estructura del proyecto
 
 # Tecnologías bibliotecas y frameworks utilizados en el proyecto
