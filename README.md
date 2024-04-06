@@ -107,19 +107,19 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Tecnologías bibliotecas y frameworks utilizados en el proyecto
 
-- [Html](https://developer.mozilla.org/es/docs/Web/HTML)
-- [Css](https://developer.mozilla.org/es/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/es/docs/Web/javascript)
-- [Typescript](https://www.typescriptlang.org/)
-- [NodeJs](https://nodejs.org/en)
-- [Express](https://expressjs.com/)
-- [Mongoose](https://mongoosejs.com/)
+- [Html](https://developer.mozilla.org/es/docs/Web/HTML): Lenguaje de marcado para esrtuctura basica del proyecto en la web.
+- [Css](https://developer.mozilla.org/es/docs/Web/CSS): Lenguaje de estilos para dar presentacion al proyecto web.
+- [Javascript](https://developer.mozilla.org/es/docs/Web/javascript): Lenguaje de programación para desarrollo del Backend .
+- [Typescript](https://www.typescriptlang.org/): Superset de javascript para desarrollo del Backend.
+- [NodeJs](https://nodejs.org/en): Entorno de ejecución de JavaScript multiplataforma, de código abierto y gratuito que permite crear servidores y aplicaciones web.
+- [Express](https://expressjs.com/): Entorno de trabajo para aplicaciones web para basadas en Node.js, Se utiliza para desarrollar aplicacion web y APIs.
+- [Mongoose](https://mongoosejs.com/): Biblioteca de JavaScript que crea una conexión entre MongoDB y el entorno de tiempo de ejecución de JavaScript de Node.js.
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Angular 17](https://angular.dev/)
 - [Tailwind Css](https://tailwindcss.com/)
 - [Flowbite](https://flowbite.com/)
 - [Sweetalert2](https://sweetalert2.github.io/#input-types)
-- [Apexcharts.js](https://www.apexcharts.com/)
+- [Apexcharts.js](https://www.apexcharts.com/): Para Graficas.
 
 [Ir al indice](#Indice)
 
