@@ -112,7 +112,7 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 - [Javascript](https://developer.mozilla.org/es/docs/Web/javascript): Lenguaje de programación para desarrollo del Backend .
 - [Typescript](https://www.typescriptlang.org/): Superset de javascript para desarrollo del Backend.
 - [NodeJs](https://nodejs.org/en): Entorno de ejecución de JavaScript multiplataforma, de código abierto y gratuito que permite crear servidores y aplicaciones web.
-- [Express](https://expressjs.com/): Entorno de trabajo para aplicaciones web para basadas en Node.js, Se utiliza para desarrollar aplicacion web y APIs.
+- [Express](https://expressjs.com/): Entorno de trabajo para aplicaciones web basadas en Node.js, Se utiliza para desarrollar aplicacion web y APIs.
 - [Mongoose](https://mongoosejs.com/): Biblioteca de JavaScript que crea una conexión entre MongoDB y el entorno de tiempo de ejecución de JavaScript de Node.js.
 - [Dotenv](https://www.npmjs.com/package/dotenv): Módulo de dependencia cero que carga las variables de entorno desde un archivo .env en process.env.
 - [Angular 17](https://angular.dev/): Framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.
