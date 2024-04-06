@@ -76,8 +76,8 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 
 # Configuración
 
-- Versión 1.42.0 de MongoDB Compass
-- Versión 6.0 de MongoDB Atlas
+- Versión 1.42.0 de MongoDB Compass.
+- Versión 6.0 de MongoDB Atlas.
 - Conexion a la base de datos de MongoDB:
   - **Usuario**: Usuario_solo_lectura
   - **Password**: m8SuqnzJKDAhB4nn
