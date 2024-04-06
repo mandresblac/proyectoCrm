@@ -114,12 +114,12 @@ Dar click en el boton de color azul **_"Code"_** y en la parte inferior nuevamen
 - [NodeJs](https://nodejs.org/en): Entorno de ejecución de JavaScript multiplataforma, de código abierto y gratuito que permite crear servidores y aplicaciones web.
 - [Express](https://expressjs.com/): Entorno de trabajo para aplicaciones web para basadas en Node.js, Se utiliza para desarrollar aplicacion web y APIs.
 - [Mongoose](https://mongoosejs.com/): Biblioteca de JavaScript que crea una conexión entre MongoDB y el entorno de tiempo de ejecución de JavaScript de Node.js.
-- [Dotenv](https://www.npmjs.com/package/dotenv)
-- [Angular 17](https://angular.dev/)
-- [Tailwind Css](https://tailwindcss.com/)
-- [Flowbite](https://flowbite.com/)
-- [Sweetalert2](https://sweetalert2.github.io/#input-types)
-- [Apexcharts.js](https://www.apexcharts.com/): Para Graficas.
+- [Dotenv](https://www.npmjs.com/package/dotenv): Módulo de dependencia cero que carga las variables de entorno desde un archivo .env en process.env.
+- [Angular 17](https://angular.dev/): Framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.
+- [Tailwind Css](https://tailwindcss.com/): Es un framework de CSS de código abierto​ para el diseño de páginas web.
+- [Flowbite](https://flowbite.com/): Biblioteca de código abierto de componentes de interfaz de usuario basada en el marco CSS Tailwind,
+- [Sweetalert2](https://sweetalert2.github.io/#input-types): Biblioteca de Javascript que genera cuadros emergentes o ventanas modales.
+- [Apexcharts.js](https://www.apexcharts.com/): Biblioteca de gráficos JavaScript que permite crear visualizaciones de datos interactivas con una API simple y más de 100 muestras listas para usar.
 
 [Ir al indice](#Indice)
 
